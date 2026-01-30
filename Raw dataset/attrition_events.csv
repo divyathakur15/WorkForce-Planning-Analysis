@@ -1,0 +1,1201 @@
+attrition_id,employee_id,attrition_flag,attrition_date,attrition_reason,exit_interview_score,rehire_eligible
+1,1502,True,2013-06-02 22:43:28,Work-Life Balance,4,False
+2,2587,True,2019-03-11 00:25:52,Work-Life Balance,3,False
+3,2654,True,2016-08-05 11:18:32,Work-Life Balance,4,True
+4,1056,True,2023-05-05 02:52:07,Work-Life Balance,2,False
+5,706,True,2024-03-25 05:21:37,Work-Life Balance,5,False
+6,107,True,2014-02-17 12:28:04,Salary,4,False
+7,590,True,2027-07-11 00:09:46,Manager Issues,3,True
+8,2469,True,2021-06-29 15:28:56,Work-Life Balance,1,True
+9,2414,True,2015-08-15 22:27:47,Work-Life Balance,3,True
+10,1601,True,2016-04-03 02:14:31,Work-Life Balance,1,False
+11,2465,True,2020-05-26 03:34:30,Career Growth,4,False
+12,229,True,2022-09-13 08:05:48,Manager Issues,5,False
+13,916,True,2017-06-02 04:55:14,Work-Life Balance,3,True
+14,795,True,2015-07-09 14:15:31,Salary,5,True
+15,3022,True,2026-06-18 23:30:39,Manager Issues,4,False
+16,3544,True,2019-10-15 19:27:01,Manager Issues,5,True
+17,1074,True,2015-06-17 18:56:33,Manager Issues,5,False
+18,3352,True,2025-01-29 08:34:06,Career Growth,3,True
+19,1745,True,2016-11-29 00:40:49,Manager Issues,4,False
+20,1085,True,2022-08-11 20:31:03,Work-Life Balance,5,True
+21,927,True,2025-03-10 03:57:31,Work-Life Balance,1,False
+22,3050,True,2011-07-18 20:19:34,Career Growth,2,True
+23,1118,True,2013-10-24 02:01:30,Salary,1,False
+24,643,True,2015-04-11 03:31:28,Career Growth,5,True
+25,4768,True,2024-05-06 05:02:14,Career Growth,4,False
+26,502,True,2017-04-20 13:39:12,Work-Life Balance,1,False
+27,4067,True,2025-11-26 17:41:47,Manager Issues,4,False
+28,334,True,2017-04-30 14:31:29,Career Growth,1,True
+29,4685,True,2022-11-19 13:57:26,Salary,4,True
+30,487,True,2018-11-21 21:52:50,Work-Life Balance,5,True
+31,1963,True,2014-06-12 02:57:35,Manager Issues,3,False
+32,394,True,2017-06-21 19:28:24,Salary,1,False
+33,4843,True,2020-02-09 23:36:07,Career Growth,4,True
+34,4867,True,2021-09-29 06:36:27,Salary,1,False
+35,1756,True,2022-06-07 05:52:32,Career Growth,4,True
+36,2516,True,2026-08-01 23:51:28,Career Growth,4,False
+37,3586,True,2021-10-18 01:40:32,Career Growth,3,False
+38,4316,True,2022-03-30 03:18:27,Career Growth,4,True
+39,4967,True,2016-06-11 17:49:10,Career Growth,1,False
+40,2100,True,2016-01-03 04:30:53,Work-Life Balance,5,False
+41,3600,True,2013-02-13 04:33:17,Career Growth,2,False
+42,4122,True,2018-02-11 07:17:50,Manager Issues,4,False
+43,30,True,2013-12-25 14:19:44,Career Growth,2,False
+44,66,True,2021-08-13 00:33:02,Work-Life Balance,5,False
+45,839,True,2021-09-21 21:49:38,Salary,2,False
+46,3907,True,2011-10-20 18:06:00,Manager Issues,4,True
+47,3774,True,2016-09-19 06:46:52,Salary,1,True
+48,4636,True,2021-12-28 19:32:01,Salary,3,False
+49,3162,True,2018-03-28 18:52:04,Manager Issues,4,False
+50,2660,True,2020-08-02 20:13:59,Work-Life Balance,4,False
+51,4616,True,2015-10-30 20:42:48,Career Growth,3,False
+52,4629,True,2016-06-01 02:58:29,Career Growth,3,True
+53,2452,True,2022-12-06 07:33:02,Career Growth,3,False
+54,2847,True,2015-02-07 18:55:08,Salary,3,True
+55,1145,True,2023-04-17 06:02:21,Manager Issues,3,True
+56,3079,True,2023-10-30 01:14:11,Career Growth,4,False
+57,1104,True,2013-08-10 05:58:47,Career Growth,2,True
+58,169,True,2019-09-28 03:37:15,Work-Life Balance,1,False
+59,1671,True,2022-12-01 03:48:12,Work-Life Balance,4,True
+60,2571,True,2020-03-07 08:11:04,Salary,5,True
+61,2378,True,2012-08-08 22:54:25,Manager Issues,4,False
+62,4396,True,2020-11-01 19:51:36,Work-Life Balance,4,True
+63,4258,True,2018-08-16 01:38:28,Manager Issues,2,True
+64,3863,True,2021-07-11 04:40:12,Work-Life Balance,3,False
+65,24,True,2014-03-09 17:01:32,Manager Issues,5,True
+66,2634,True,2019-03-01 02:35:35,Manager Issues,2,True
+67,3341,True,2023-11-30 06:38:44,Manager Issues,1,False
+68,2216,True,2022-01-18 08:34:51,Salary,5,True
+69,3683,True,2015-04-05 13:30:17,Work-Life Balance,5,False
+70,4725,True,2013-11-20 02:35:47,Work-Life Balance,2,False
+71,1908,True,2024-01-14 03:35:11,Career Growth,5,False
+72,85,True,2015-11-15 01:09:17,Career Growth,4,True
+73,228,True,2026-12-27 01:14:39,Salary,4,False
+74,297,True,2019-04-24 15:05:17,Work-Life Balance,3,True
+75,1002,True,2015-03-21 06:51:00,Career Growth,2,True
+76,2139,True,2016-06-20 06:28:40,Work-Life Balance,4,True
+77,712,True,2019-12-02 11:11:01,Career Growth,5,False
+78,2802,True,2017-08-11 13:26:06,Salary,5,False
+79,2528,True,2016-09-13 14:15:35,Career Growth,4,True
+80,3753,True,2018-07-27 02:02:33,Salary,2,False
+81,3322,True,2017-03-26 06:35:53,Salary,2,False
+82,3182,True,2017-03-09 14:33:25,Manager Issues,1,True
+83,4184,True,2022-02-03 17:13:47,Salary,2,False
+84,1616,True,2022-11-24 17:41:36,Manager Issues,4,False
+85,3025,True,2020-03-25 11:27:51,Work-Life Balance,1,True
+86,1414,True,2024-04-15 00:13:26,Salary,5,True
+87,764,True,2022-04-01 12:34:28,Salary,4,True
+88,656,True,2016-02-09 09:30:18,Salary,3,False
+89,4798,True,2017-04-26 10:42:52,Career Growth,3,False
+90,3850,True,2019-08-24 12:00:25,Salary,2,True
+91,4154,True,2018-05-14 23:51:42,Work-Life Balance,1,False
+92,469,True,2019-12-14 06:05:08,Manager Issues,1,False
+93,158,True,2023-09-06 18:00:27,Work-Life Balance,5,False
+94,1296,True,2025-06-23 10:15:07,Manager Issues,2,False
+95,498,True,2024-01-04 07:50:19,Work-Life Balance,1,False
+96,4741,True,2023-08-15 23:40:59,Career Growth,4,False
+97,2941,True,2023-04-25 13:29:58,Work-Life Balance,5,True
+98,3457,True,2024-12-13 19:34:53,Work-Life Balance,1,True
+99,374,True,2016-09-25 12:10:02,Salary,3,True
+100,80,True,2017-10-10 23:30:48,Career Growth,3,False
+101,1554,True,2018-12-20 21:34:03,Career Growth,1,False
+102,1670,True,2024-03-13 05:45:47,Salary,3,True
+103,2132,True,2017-05-11 02:35:51,Manager Issues,4,False
+104,4440,True,2021-10-12 23:07:47,Work-Life Balance,5,False
+105,466,True,2019-04-01 19:16:33,Salary,4,False
+106,249,True,2016-07-25 18:52:49,Career Growth,3,False
+107,932,True,2023-08-01 20:51:33,Work-Life Balance,1,True
+108,1336,True,2017-02-18 14:13:26,Work-Life Balance,1,False
+109,4525,True,2021-11-04 11:25:53,Manager Issues,5,False
+110,1339,True,2014-03-31 19:36:17,Manager Issues,3,False
+111,1407,True,2013-12-02 10:46:58,Work-Life Balance,3,False
+112,1091,True,2015-02-06 06:40:11,Work-Life Balance,3,False
+113,4210,True,2019-02-18 21:01:58,Work-Life Balance,2,True
+114,743,True,2024-10-09 15:42:20,Manager Issues,1,False
+115,2324,True,2018-01-03 12:41:36,Manager Issues,3,True
+116,3602,True,2020-10-22 07:02:07,Salary,5,True
+117,2124,True,2015-09-23 10:12:58,Manager Issues,2,False
+118,2095,True,2013-03-05 03:20:40,Career Growth,3,False
+119,241,True,2024-01-03 16:06:53,Career Growth,1,False
+120,2352,True,2019-10-17 07:48:46,Work-Life Balance,2,True
+121,1371,True,2019-04-27 15:51:01,Work-Life Balance,4,False
+122,1058,True,2018-03-03 20:57:43,Manager Issues,5,True
+123,4817,True,2022-02-11 15:20:45,Career Growth,1,True
+124,200,True,2014-07-03 15:48:58,Salary,4,False
+125,2281,True,2021-10-31 08:08:08,Manager Issues,1,False
+126,4750,True,2019-02-24 09:39:14,Manager Issues,5,False
+127,2221,True,2019-02-21 20:01:03,Career Growth,3,False
+128,4772,True,2018-08-13 08:21:51,Work-Life Balance,4,True
+129,2820,True,2025-03-22 14:00:17,Work-Life Balance,4,True
+130,3151,True,2021-01-05 12:08:58,Career Growth,2,True
+131,4257,True,2024-06-10 15:59:27,Career Growth,3,True
+132,3108,True,2017-08-27 09:47:58,Salary,5,True
+133,1974,True,2022-04-09 18:31:06,Career Growth,2,False
+134,1376,True,2022-01-27 08:10:41,Work-Life Balance,4,True
+135,3969,True,2016-07-21 04:10:30,Career Growth,1,False
+136,4063,True,2016-07-23 11:26:27,Career Growth,5,True
+137,4446,True,2025-01-11 10:35:31,Salary,2,True
+138,3558,True,2024-03-28 17:03:33,Manager Issues,3,True
+139,965,True,2022-04-18 23:01:59,Salary,1,False
+140,180,True,2024-05-04 23:04:08,Career Growth,2,True
+141,3699,True,2019-04-03 21:41:50,Manager Issues,5,True
+142,3822,True,2017-03-27 07:01:43,Career Growth,1,True
+143,4879,True,2026-08-13 05:41:13,Manager Issues,2,True
+144,3900,True,2016-03-22 17:13:05,Career Growth,2,True
+145,4488,True,2013-01-18 00:25:14,Work-Life Balance,5,True
+146,3239,True,2018-08-18 07:31:05,Manager Issues,3,True
+147,2975,True,2012-10-04 16:59:43,Manager Issues,1,True
+148,3581,True,2014-03-22 16:33:49,Salary,2,True
+149,2888,True,2016-06-23 03:05:44,Work-Life Balance,5,True
+150,2576,True,2017-06-20 12:59:26,Work-Life Balance,2,False
+151,1420,True,2013-08-14 15:50:33,Work-Life Balance,5,True
+152,3908,True,2020-05-21 20:29:06,Career Growth,5,True
+153,4674,True,2022-09-15 04:52:12,Career Growth,2,False
+154,4903,True,2017-08-16 19:14:20,Manager Issues,5,True
+155,1861,True,2020-07-21 10:09:17,Career Growth,1,True
+156,9,True,2017-05-28 18:05:35,Career Growth,5,False
+157,2895,True,2019-05-26 07:27:19,Manager Issues,3,False
+158,2848,True,2020-08-13 07:58:22,Salary,3,False
+159,3665,True,2022-04-15 22:33:03,Career Growth,5,False
+160,145,True,2016-09-25 02:33:35,Work-Life Balance,1,False
+161,2105,True,2015-10-25 15:24:36,Work-Life Balance,4,True
+162,3144,True,2022-02-14 05:17:59,Career Growth,4,True
+163,842,True,2015-09-04 06:06:52,Career Growth,1,True
+164,1129,True,2025-02-18 16:40:19,Manager Issues,3,True
+165,152,True,2012-06-24 18:15:30,Career Growth,5,True
+166,3592,True,2018-05-21 00:29:43,Salary,2,False
+167,1053,True,2020-06-14 03:28:13,Manager Issues,5,True
+168,1591,True,2023-12-21 23:56:46,Work-Life Balance,5,True
+169,3009,True,2018-10-21 02:51:35,Manager Issues,4,False
+170,2030,True,2014-01-27 03:39:47,Career Growth,5,True
+171,3419,True,2015-09-06 10:18:01,Career Growth,4,False
+172,1808,True,2016-09-20 20:02:31,Salary,2,True
+173,2697,True,2023-01-06 13:50:47,Salary,5,True
+174,3040,True,2019-06-19 14:52:54,Manager Issues,1,False
+175,473,True,2018-02-26 02:42:29,Work-Life Balance,5,False
+176,3290,True,2025-04-14 18:01:07,Manager Issues,1,False
+177,4075,True,2018-09-23 03:49:51,Manager Issues,4,True
+178,3497,True,2017-12-01 03:27:03,Salary,5,True
+179,280,True,2014-08-23 10:33:25,Manager Issues,4,False
+180,1742,True,2017-12-14 19:27:49,Salary,1,False
+181,4625,True,2020-04-10 10:50:11,Salary,4,False
+182,2887,True,2018-03-21 02:42:36,Manager Issues,3,True
+183,1942,True,2016-12-07 08:55:50,Salary,1,True
+184,101,True,2014-11-16 09:07:14,Career Growth,4,False
+185,2805,True,2020-02-22 02:15:24,Career Growth,5,True
+186,3571,True,2022-05-29 21:12:39,Manager Issues,4,True
+187,3685,True,2023-06-30 21:09:21,Work-Life Balance,2,False
+188,3662,True,2021-08-22 00:26:59,Work-Life Balance,1,True
+189,531,True,2014-12-03 03:22:24,Career Growth,4,False
+190,1887,True,2024-01-08 03:32:53,Salary,3,False
+191,682,True,2015-05-05 01:28:34,Work-Life Balance,2,False
+192,3795,True,2016-10-28 07:47:36,Work-Life Balance,1,False
+193,3945,True,2018-01-05 12:00:36,Manager Issues,2,True
+194,4667,True,2019-02-15 17:12:49,Manager Issues,5,True
+195,2019,True,2026-05-10 19:41:23,Work-Life Balance,3,True
+196,1097,True,2021-09-02 22:30:37,Work-Life Balance,5,False
+197,830,True,2023-02-25 06:13:27,Career Growth,4,False
+198,2806,True,2014-04-22 03:11:22,Manager Issues,2,True
+199,3830,True,2020-07-10 20:24:04,Manager Issues,5,False
+200,4382,True,2013-01-30 13:15:10,Work-Life Balance,4,False
+201,3892,True,2016-02-14 19:15:01,Career Growth,3,False
+202,765,True,2021-08-07 03:40:19,Salary,5,False
+203,2768,True,2022-02-19 15:28:11,Manager Issues,2,True
+204,4329,True,2023-11-11 06:20:23,Manager Issues,5,False
+205,3296,True,2015-04-02 08:07:39,Work-Life Balance,3,False
+206,2195,True,2022-10-12 00:02:24,Work-Life Balance,4,False
+207,2358,True,2020-04-04 17:46:01,Salary,5,False
+208,3426,True,2016-02-20 02:35:04,Manager Issues,5,False
+209,3980,True,2024-11-09 11:47:34,Career Growth,1,False
+210,912,True,2016-08-11 20:07:02,Career Growth,4,False
+211,3146,True,2012-05-21 17:41:01,Work-Life Balance,1,True
+212,1000,True,2016-03-18 22:00:51,Career Growth,1,False
+213,3654,True,2024-01-20 10:08:53,Career Growth,3,False
+214,2484,True,2024-11-27 23:25:48,Work-Life Balance,3,True
+215,4077,True,2013-08-14 18:04:41,Salary,2,False
+216,2371,True,2017-10-05 01:03:53,Salary,4,False
+217,4839,True,2012-11-26 08:34:29,Manager Issues,4,False
+218,34,True,2016-01-16 17:33:36,Work-Life Balance,3,True
+219,3790,True,2025-06-22 06:55:27,Work-Life Balance,3,True
+220,1021,True,2016-12-26 06:01:58,Manager Issues,1,False
+221,1648,True,2013-06-29 07:47:42,Career Growth,3,False
+222,734,True,2012-01-14 20:04:42,Salary,5,True
+223,4583,True,2021-10-19 23:32:01,Manager Issues,4,False
+224,3275,True,2016-04-05 10:06:15,Manager Issues,2,False
+225,1621,True,2022-05-20 01:24:29,Manager Issues,1,False
+226,3136,True,2022-04-24 19:19:41,Salary,5,True
+227,2690,True,2016-11-21 05:02:10,Career Growth,3,True
+228,2708,True,2018-07-06 14:40:04,Salary,2,False
+229,298,True,2022-09-12 09:22:09,Work-Life Balance,3,False
+230,2340,True,2020-08-08 23:43:00,Work-Life Balance,5,True
+231,654,True,2018-04-10 20:21:02,Manager Issues,2,False
+232,3775,True,2022-09-28 13:05:58,Work-Life Balance,3,False
+233,1256,True,2022-01-21 20:06:16,Salary,5,True
+234,4521,True,2020-11-15 12:36:56,Work-Life Balance,5,True
+235,231,True,2017-10-02 02:32:38,Work-Life Balance,2,False
+236,3277,True,2018-01-28 15:46:28,Career Growth,5,False
+237,3231,True,2018-08-09 04:51:53,Salary,3,False
+238,692,True,2022-12-01 16:21:51,Work-Life Balance,2,False
+239,2755,True,2024-08-09 12:15:49,Salary,1,True
+240,4864,True,2025-03-28 16:32:42,Work-Life Balance,5,False
+241,970,True,2015-03-18 06:03:54,Career Growth,3,False
+242,634,True,2025-08-03 06:24:27,Work-Life Balance,2,False
+243,4093,True,2017-04-26 08:01:13,Manager Issues,1,False
+244,4078,True,2018-01-01 17:00:50,Career Growth,1,True
+245,1322,True,2025-08-01 08:08:21,Work-Life Balance,4,False
+246,1832,True,2024-11-17 02:08:33,Manager Issues,4,False
+247,2179,True,2026-02-12 19:22:46,Work-Life Balance,2,True
+248,1418,True,2017-09-30 04:12:43,Manager Issues,5,True
+249,1783,True,2021-12-10 03:22:28,Career Growth,3,False
+250,4716,True,2014-11-13 18:46:57,Work-Life Balance,5,True
+251,4702,True,2013-08-07 12:49:24,Salary,3,True
+252,4119,True,2020-07-05 21:12:49,Work-Life Balance,3,True
+253,1653,True,2025-06-14 02:26:40,Salary,4,True
+254,1484,True,2021-02-21 14:52:22,Career Growth,4,False
+255,2276,True,2018-05-13 10:48:51,Salary,5,True
+256,878,True,2017-12-07 12:36:09,Manager Issues,2,True
+257,3526,True,2023-11-30 03:34:34,Salary,3,False
+258,2017,True,2015-04-06 18:49:29,Career Growth,4,True
+259,427,True,2022-09-06 23:04:56,Career Growth,2,False
+260,627,True,2013-09-27 12:59:33,Salary,4,True
+261,1590,True,2022-10-26 02:02:25,Manager Issues,3,False
+262,2224,True,2021-10-29 09:46:48,Career Growth,1,True
+263,2218,True,2017-04-09 04:11:31,Work-Life Balance,4,False
+264,4484,True,2022-02-16 03:08:47,Career Growth,2,True
+265,1486,True,2013-09-29 23:10:58,Work-Life Balance,5,False
+266,1740,True,2025-09-30 02:59:16,Salary,5,False
+267,2481,True,2015-05-15 12:02:27,Manager Issues,3,True
+268,2585,True,2016-04-25 15:10:05,Work-Life Balance,1,False
+269,2894,True,2023-10-03 15:49:15,Manager Issues,4,False
+270,150,True,2023-04-15 11:44:00,Manager Issues,4,True
+271,677,True,2019-04-21 17:08:34,Salary,1,False
+272,1262,True,2019-02-26 20:14:30,Career Growth,3,True
+273,4918,True,2021-04-07 04:52:36,Career Growth,3,False
+274,13,True,2022-03-31 14:32:55,Career Growth,2,True
+275,1834,True,2016-02-21 10:38:51,Manager Issues,2,True
+276,3249,True,2020-05-13 04:08:48,Career Growth,2,False
+277,1492,True,2017-08-14 07:06:54,Career Growth,3,True
+278,2728,True,2015-01-05 17:59:30,Salary,4,True
+279,3687,True,2016-09-02 05:40:11,Career Growth,5,False
+280,1425,True,2019-04-15 19:01:01,Manager Issues,3,False
+281,4606,True,2022-12-11 10:34:03,Salary,1,True
+282,4596,True,2018-08-20 16:32:17,Career Growth,5,True
+283,732,True,2014-01-23 01:43:04,Work-Life Balance,3,False
+284,1232,True,2013-01-06 08:23:32,Career Growth,3,False
+285,1635,True,2021-12-14 18:18:33,Manager Issues,2,False
+286,3937,True,2017-06-03 13:46:46,Salary,4,True
+287,1211,True,2025-08-27 01:24:11,Career Growth,4,True
+288,3269,True,2017-04-15 13:47:04,Work-Life Balance,5,False
+289,1935,True,2019-02-10 05:59:54,Career Growth,3,False
+290,554,True,2022-09-19 02:54:12,Salary,2,True
+291,492,True,2019-10-26 12:39:40,Salary,1,False
+292,2963,True,2023-02-21 12:58:03,Salary,3,False
+293,2330,True,2014-12-18 05:31:30,Salary,2,True
+294,2196,True,2027-05-17 18:01:32,Salary,1,True
+295,3065,True,2016-11-21 23:19:35,Manager Issues,1,False
+296,658,True,2022-04-16 00:46:51,Work-Life Balance,5,False
+297,2375,True,2021-11-29 10:48:45,Work-Life Balance,4,False
+298,2226,True,2016-06-07 11:10:30,Work-Life Balance,4,True
+299,4265,True,2026-03-09 21:00:59,Manager Issues,5,False
+300,1171,True,2016-01-04 12:42:04,Salary,3,True
+301,133,True,2019-10-21 05:29:41,Career Growth,2,True
+302,472,True,2024-12-29 14:52:31,Manager Issues,4,False
+303,3226,True,2026-11-18 03:13:24,Salary,5,True
+304,1406,True,2024-03-16 13:20:48,Manager Issues,4,False
+305,2877,True,2013-10-28 06:24:03,Career Growth,4,False
+306,4505,True,2016-03-18 16:07:49,Career Growth,4,False
+307,4693,True,2017-02-17 11:08:17,Work-Life Balance,3,False
+308,2827,True,2016-02-23 10:26:11,Manager Issues,5,False
+309,288,True,2021-01-29 13:26:58,Career Growth,4,True
+310,1870,True,2026-02-25 19:15:31,Salary,4,True
+311,3115,True,2022-05-13 21:39:30,Work-Life Balance,5,False
+312,3626,True,2023-11-04 09:51:44,Career Growth,1,True
+313,2313,True,2023-08-21 00:49:51,Work-Life Balance,3,True
+314,4924,True,2012-02-28 06:37:36,Salary,3,True
+315,1619,True,2018-11-27 08:02:40,Salary,2,True
+316,995,True,2026-07-25 00:34:41,Manager Issues,2,False
+317,1804,True,2016-06-19 15:25:39,Salary,1,True
+318,2643,True,2015-07-13 06:43:49,Salary,2,False
+319,4803,True,2019-10-09 22:28:09,Salary,4,False
+320,3536,True,2023-05-30 22:37:01,Work-Life Balance,4,False
+321,4832,True,2026-09-04 06:56:48,Salary,2,True
+322,3912,True,2013-03-16 11:40:21,Work-Life Balance,3,True
+323,2108,True,2025-03-02 01:32:54,Career Growth,1,True
+324,3045,True,2022-04-17 18:28:49,Career Growth,4,True
+325,417,True,2011-12-24 00:48:12,Work-Life Balance,1,True
+326,978,True,2025-02-05 20:27:20,Work-Life Balance,2,True
+327,2418,True,2023-06-10 17:12:05,Salary,5,False
+328,506,True,2024-05-03 20:52:05,Salary,1,True
+329,4153,True,2013-05-12 13:25:47,Work-Life Balance,1,True
+330,4256,True,2020-05-15 08:41:29,Manager Issues,2,True
+331,3942,True,2018-06-10 03:47:05,Manager Issues,2,False
+332,415,True,2017-03-31 10:31:25,Manager Issues,4,False
+333,4149,True,2018-10-05 09:48:18,Career Growth,5,False
+334,1184,True,2025-11-11 13:58:42,Salary,5,True
+335,486,True,2024-12-24 05:54:51,Work-Life Balance,1,True
+336,894,True,2025-02-09 12:57:52,Career Growth,5,False
+337,806,True,2016-01-09 12:22:35,Career Growth,2,False
+338,556,True,2024-08-06 06:15:40,Salary,2,False
+339,3826,True,2015-01-31 14:06:45,Work-Life Balance,2,False
+340,1198,True,2019-10-30 05:03:19,Manager Issues,1,False
+341,4254,True,2021-10-16 10:53:52,Salary,3,True
+342,4059,True,2024-07-21 17:34:45,Career Growth,2,True
+343,1294,True,2014-03-27 04:39:08,Career Growth,5,True
+344,2222,True,2024-05-25 08:15:11,Career Growth,5,True
+345,3505,True,2025-02-16 20:04:03,Career Growth,2,False
+346,3655,True,2012-04-28 16:43:50,Manager Issues,3,True
+347,4759,True,2014-06-12 18:21:05,Work-Life Balance,1,False
+348,3007,True,2017-02-25 16:50:25,Manager Issues,2,False
+349,2094,True,2014-09-14 17:25:14,Career Growth,1,False
+350,2188,True,2026-02-21 02:02:09,Work-Life Balance,3,True
+351,3037,True,2021-02-27 19:33:41,Salary,2,True
+352,3919,True,2025-06-05 23:22:40,Salary,2,False
+353,1273,True,2023-04-01 19:09:58,Manager Issues,2,True
+354,291,True,2024-07-05 06:32:41,Salary,4,True
+355,4828,True,2024-03-05 19:09:10,Career Growth,2,False
+356,253,True,2022-05-07 12:41:47,Work-Life Balance,2,True
+357,3246,True,2016-01-17 17:28:03,Work-Life Balance,3,True
+358,351,True,2013-06-04 06:40:20,Manager Issues,3,True
+359,1188,True,2021-02-02 13:29:31,Work-Life Balance,4,False
+360,1962,True,2025-04-03 14:18:08,Salary,2,True
+361,423,True,2019-12-12 18:40:56,Manager Issues,5,True
+362,91,True,2021-01-14 13:07:34,Career Growth,1,True
+363,3730,True,2015-08-22 17:36:25,Manager Issues,2,True
+364,2237,True,2022-03-19 23:49:00,Salary,4,False
+365,671,True,2026-05-26 11:15:38,Salary,5,False
+366,3041,True,2019-08-23 03:42:14,Salary,3,True
+367,27,True,2023-11-27 13:24:20,Manager Issues,1,False
+368,430,True,2017-09-25 14:14:37,Manager Issues,4,True
+369,684,True,2020-08-06 09:11:42,Work-Life Balance,3,False
+370,4464,True,2022-11-14 17:29:37,Manager Issues,2,True
+371,3946,True,2017-05-27 09:22:51,Career Growth,4,False
+372,3524,True,2013-01-01 18:06:59,Manager Issues,2,True
+373,1542,True,2014-12-30 19:09:37,Work-Life Balance,4,True
+374,2032,True,2017-09-24 01:59:24,Career Growth,4,True
+375,2233,True,2020-04-07 23:11:57,Career Growth,2,False
+376,4121,True,2022-09-15 03:48:07,Manager Issues,4,False
+377,3236,True,2020-12-02 22:00:17,Work-Life Balance,3,True
+378,255,True,2013-11-18 16:51:20,Work-Life Balance,3,True
+379,1030,True,2019-07-01 07:48:48,Career Growth,1,True
+380,4393,True,2024-10-08 03:42:54,Career Growth,1,False
+381,3801,True,2016-12-25 12:15:45,Work-Life Balance,4,True
+382,4311,True,2013-10-29 19:35:00,Salary,3,False
+383,2510,True,2023-12-18 08:14:46,Salary,2,False
+384,2293,True,2016-06-15 07:04:51,Manager Issues,4,True
+385,1324,True,2011-09-21 19:51:50,Work-Life Balance,2,True
+386,1551,True,2024-08-04 18:09:22,Career Growth,5,True
+387,4648,True,2021-11-26 23:01:24,Salary,1,False
+388,316,True,2018-08-05 07:15:03,Career Growth,4,True
+389,1243,True,2017-11-21 16:14:56,Career Growth,4,True
+390,2451,True,2024-01-16 06:01:49,Work-Life Balance,2,False
+391,1579,True,2013-11-06 09:54:04,Career Growth,1,False
+392,4626,True,2016-06-03 13:10:43,Work-Life Balance,2,True
+393,3117,True,2020-07-22 22:10:16,Career Growth,2,True
+394,70,True,2015-07-11 23:31:55,Salary,1,False
+395,860,True,2024-07-05 20:34:07,Work-Life Balance,5,False
+396,2754,True,2022-02-24 11:12:27,Career Growth,3,True
+397,1633,True,2023-06-14 05:20:47,Manager Issues,3,False
+398,1651,True,2024-11-17 06:15:38,Manager Issues,5,False
+399,3861,True,2021-08-20 10:52:56,Manager Issues,1,True
+400,3107,True,2022-10-26 00:50:36,Manager Issues,4,True
+401,1075,True,2021-10-19 00:23:43,Salary,1,False
+402,4002,True,2026-05-17 02:47:25,Salary,2,True
+403,788,True,2018-07-21 21:21:00,Manager Issues,1,False
+404,2606,True,2021-12-15 21:07:46,Career Growth,3,False
+405,3631,True,2020-03-15 23:19:06,Salary,4,False
+406,2122,True,2018-07-08 18:52:56,Manager Issues,5,False
+407,1875,True,2027-07-20 02:49:49,Salary,1,False
+408,812,True,2017-09-21 23:40:33,Salary,4,True
+409,388,True,2017-02-05 04:47:38,Career Growth,4,True
+410,2883,True,2019-02-10 23:10:06,Career Growth,3,False
+411,1176,True,2017-11-12 22:35:18,Work-Life Balance,2,False
+412,3198,True,2022-12-30 18:39:16,Career Growth,4,True
+413,2624,True,2015-03-18 16:31:45,Manager Issues,4,True
+414,1352,True,2014-01-04 10:15:08,Work-Life Balance,1,True
+415,411,True,2014-08-15 12:31:23,Manager Issues,5,True
+416,4213,True,2012-01-07 21:39:44,Career Growth,1,False
+417,110,True,2019-03-05 03:45:08,Career Growth,3,False
+418,4996,True,2020-09-04 14:15:41,Salary,4,True
+419,3430,True,2015-07-13 19:08:02,Manager Issues,2,False
+420,2810,True,2015-06-23 02:09:46,Work-Life Balance,4,False
+421,2595,True,2015-07-31 19:59:59,Career Growth,2,True
+422,2837,True,2023-12-24 16:29:06,Work-Life Balance,2,False
+423,2373,True,2018-09-13 10:00:00,Career Growth,2,False
+424,1236,True,2019-02-22 12:22:45,Career Growth,5,False
+425,2147,True,2018-12-20 05:36:44,Salary,1,True
+426,4976,True,2018-02-12 03:00:12,Work-Life Balance,3,True
+427,600,True,2012-09-23 01:58:50,Career Growth,5,False
+428,1435,True,2021-03-07 03:20:27,Career Growth,5,True
+429,4997,True,2019-10-23 17:17:35,Salary,2,True
+430,539,True,2016-07-13 09:13:35,Career Growth,5,False
+431,722,True,2013-09-11 08:07:25,Salary,3,True
+432,4411,True,2022-06-23 19:21:12,Salary,3,True
+433,1873,True,2014-01-19 03:23:22,Salary,4,False
+434,2846,True,2017-05-25 15:12:55,Career Growth,5,False
+435,2054,True,2015-03-26 02:38:51,Salary,4,True
+436,2908,True,2014-07-15 10:35:25,Work-Life Balance,3,True
+437,2255,True,2022-06-19 13:20:53,Work-Life Balance,5,False
+438,3913,True,2019-07-24 14:48:07,Work-Life Balance,2,False
+439,178,True,2023-08-31 05:48:18,Work-Life Balance,2,False
+440,2891,True,2017-09-26 18:04:42,Salary,5,True
+441,3674,True,2013-12-23 08:50:52,Manager Issues,4,True
+442,81,True,2023-12-25 23:29:27,Career Growth,4,False
+443,2562,True,2016-04-23 16:13:40,Career Growth,2,False
+444,1724,True,2016-12-30 18:23:22,Manager Issues,4,True
+445,1618,True,2014-09-03 12:04:10,Manager Issues,2,True
+446,1655,True,2018-07-03 17:20:38,Career Growth,1,False
+447,2329,True,2021-05-19 14:09:59,Career Growth,2,True
+448,4614,True,2018-05-13 18:10:02,Manager Issues,1,True
+449,222,True,2021-01-31 11:49:51,Work-Life Balance,5,True
+450,94,True,2023-07-21 06:47:01,Salary,1,False
+451,2610,True,2024-07-06 16:49:19,Career Growth,3,False
+452,3383,True,2018-05-26 21:09:09,Career Growth,4,True
+453,4416,True,2014-08-21 15:02:06,Career Growth,1,False
+454,1398,True,2018-08-31 00:02:18,Work-Life Balance,3,False
+455,4687,True,2021-08-18 05:14:28,Work-Life Balance,3,False
+456,1293,True,2019-05-06 03:44:55,Career Growth,4,True
+457,2165,True,2016-04-08 05:19:53,Work-Life Balance,2,False
+458,2940,True,2022-09-10 16:39:56,Career Growth,3,False
+459,3669,True,2024-06-21 20:22:39,Salary,1,True
+460,813,True,2014-11-24 13:09:48,Work-Life Balance,4,True
+461,1259,True,2016-12-16 08:04:19,Salary,1,False
+462,890,True,2018-08-30 01:30:07,Manager Issues,2,False
+463,1452,True,2017-12-29 07:36:54,Career Growth,4,False
+464,3317,True,2024-11-04 06:28:15,Work-Life Balance,3,True
+465,2560,True,2014-01-31 23:22:29,Salary,1,False
+466,3575,True,2021-01-27 08:13:05,Work-Life Balance,1,True
+467,2681,True,2020-02-18 14:18:45,Manager Issues,3,True
+468,4652,True,2021-11-05 06:12:16,Salary,3,True
+469,4812,True,2024-03-17 15:49:05,Manager Issues,2,False
+470,4680,True,2025-09-03 16:00:24,Manager Issues,2,False
+471,2965,True,2027-02-22 14:57:01,Salary,3,False
+472,2673,True,2027-05-16 21:40:30,Work-Life Balance,4,True
+473,562,True,2019-09-07 23:47:02,Salary,3,True
+474,2779,True,2024-12-16 12:43:28,Manager Issues,3,False
+475,2949,True,2015-11-24 22:06:32,Career Growth,5,False
+476,2818,True,2017-12-03 18:23:37,Salary,4,True
+477,2759,True,2021-05-12 02:33:44,Career Growth,4,False
+478,1757,True,2024-07-26 21:20:43,Work-Life Balance,2,False
+479,725,True,2021-10-03 15:46:38,Salary,2,True
+480,220,True,2026-07-29 17:42:23,Career Growth,2,True
+481,4140,True,2021-05-26 15:46:11,Manager Issues,1,False
+482,3958,True,2013-11-29 04:07:23,Work-Life Balance,4,True
+483,1589,True,2023-10-28 14:56:49,Career Growth,5,True
+484,3348,True,2024-07-03 13:43:18,Work-Life Balance,2,False
+485,3971,True,2024-05-15 06:03:44,Salary,2,True
+486,4708,True,2025-10-14 03:31:57,Career Growth,2,False
+487,44,True,2019-10-14 15:13:30,Salary,2,True
+488,3002,True,2024-12-28 17:36:15,Salary,2,False
+489,211,True,2015-09-12 02:49:28,Manager Issues,1,True
+490,678,True,2020-10-15 12:21:40,Career Growth,5,True
+491,355,True,2018-08-18 23:05:00,Career Growth,4,True
+492,1434,True,2023-07-26 00:36:07,Career Growth,5,False
+493,950,True,2020-12-17 14:01:05,Work-Life Balance,3,True
+494,2844,True,2013-05-05 12:41:35,Work-Life Balance,4,True
+495,578,True,2013-03-20 02:15:35,Work-Life Balance,2,True
+496,3929,True,2020-03-15 04:49:07,Work-Life Balance,3,True
+497,545,True,2019-06-16 02:59:59,Career Growth,3,False
+498,368,True,2017-08-10 20:16:56,Career Growth,3,True
+499,1613,True,2015-05-31 14:29:00,Work-Life Balance,3,True
+500,3551,True,2012-10-18 20:46:03,Manager Issues,2,True
+501,3717,True,2014-09-15 06:31:51,Career Growth,3,True
+502,3780,True,2019-02-01 16:32:21,Work-Life Balance,5,False
+503,136,True,2020-10-11 12:02:16,Salary,2,True
+504,4481,True,2016-12-12 08:23:48,Manager Issues,3,False
+505,1438,True,2013-01-05 04:58:43,Career Growth,3,False
+506,48,True,2021-12-07 18:50:16,Manager Issues,5,False
+507,1361,True,2022-06-12 15:06:22,Work-Life Balance,1,True
+508,735,True,2024-09-27 16:21:58,Salary,1,False
+509,1535,True,2017-03-28 01:49:55,Salary,5,True
+510,2005,True,2017-01-24 20:41:43,Work-Life Balance,1,False
+511,3796,True,2020-10-20 03:53:16,Manager Issues,4,True
+512,2520,True,2016-07-02 22:57:52,Career Growth,4,True
+513,1973,True,2025-06-21 14:07:44,Work-Life Balance,4,True
+514,997,True,2014-08-12 23:28:35,Manager Issues,1,False
+515,62,True,2017-06-05 17:34:24,Work-Life Balance,4,True
+516,1109,True,2023-07-18 09:36:20,Salary,4,False
+517,2406,True,2014-12-20 18:59:04,Career Growth,1,True
+518,96,True,2018-08-27 08:22:12,Work-Life Balance,5,True
+519,479,True,2022-08-22 11:54:09,Salary,2,True
+520,4360,True,2020-02-10 19:33:04,Work-Life Balance,4,False
+521,4113,True,2020-04-08 23:13:08,Salary,1,False
+522,3708,True,2023-03-06 03:23:15,Salary,2,True
+523,1102,True,2024-01-09 02:15:05,Career Growth,2,True
+524,2747,True,2017-06-20 12:14:35,Salary,3,True
+525,2171,True,2013-03-17 01:44:25,Career Growth,2,True
+526,323,True,2017-09-05 14:31:54,Career Growth,4,True
+527,4255,True,2012-12-01 17:20:51,Salary,5,True
+528,3143,True,2022-07-14 02:53:12,Salary,4,False
+529,3538,True,2025-11-09 07:09:48,Career Growth,3,True
+530,4926,True,2021-02-14 10:02:07,Work-Life Balance,2,False
+531,2925,True,2016-08-07 14:45:38,Work-Life Balance,3,False
+532,1150,True,2019-10-04 06:01:25,Work-Life Balance,4,True
+533,3618,True,2016-03-14 20:27:12,Manager Issues,4,True
+534,292,True,2023-11-02 19:40:57,Salary,4,False
+535,3750,True,2014-08-03 07:25:28,Career Growth,5,False
+536,3587,True,2023-01-08 08:18:41,Manager Issues,4,False
+537,534,True,2026-01-01 05:01:44,Salary,4,True
+538,3608,True,2013-05-11 03:04:20,Career Growth,2,True
+539,2649,True,2021-05-12 01:39:41,Salary,5,False
+540,4811,True,2021-01-17 23:33:21,Work-Life Balance,2,False
+541,1984,True,2019-10-25 22:43:49,Manager Issues,3,True
+542,2933,True,2018-04-30 03:18:00,Career Growth,1,False
+543,1537,True,2017-09-02 10:42:08,Salary,2,True
+544,4535,True,2026-09-28 00:42:33,Career Growth,5,True
+545,4173,True,2022-10-21 09:15:28,Career Growth,2,False
+546,3361,True,2018-11-24 04:31:48,Career Growth,1,True
+547,3666,True,2018-11-26 14:24:33,Work-Life Balance,2,True
+548,4006,True,2012-05-30 19:39:21,Career Growth,1,False
+549,3627,True,2022-11-18 13:13:35,Manager Issues,5,True
+550,587,True,2015-12-04 03:31:20,Manager Issues,2,True
+551,3257,True,2022-06-06 20:54:46,Salary,5,False
+552,2299,True,2012-11-22 03:53:05,Salary,5,True
+553,3989,True,2014-07-01 07:19:24,Career Growth,3,True
+554,585,True,2016-02-06 14:09:44,Work-Life Balance,3,True
+555,2424,True,2016-05-08 19:41:41,Manager Issues,2,False
+556,1392,True,2021-07-31 17:34:28,Career Growth,2,True
+557,4526,True,2019-04-24 08:18:03,Manager Issues,5,False
+558,4921,True,2023-06-03 22:51:57,Salary,3,True
+559,4801,True,2018-12-27 08:42:48,Work-Life Balance,2,False
+560,3241,True,2017-05-22 02:19:46,Manager Issues,2,False
+561,4282,True,2023-05-08 18:12:22,Salary,2,True
+562,3339,True,2012-03-24 18:40:40,Manager Issues,3,False
+563,3221,True,2017-02-26 20:43:28,Career Growth,2,True
+564,2112,True,2018-12-04 14:19:05,Manager Issues,5,True
+565,1175,True,2020-08-30 19:06:50,Manager Issues,2,False
+566,4863,True,2012-10-29 03:50:20,Career Growth,4,True
+567,3812,True,2016-04-26 05:21:52,Work-Life Balance,1,False
+568,1868,True,2023-07-06 17:02:46,Work-Life Balance,5,True
+569,2615,True,2014-07-20 19:33:23,Career Growth,2,False
+570,3867,True,2012-10-16 01:58:32,Work-Life Balance,4,False
+571,4886,True,2012-07-18 04:25:54,Work-Life Balance,3,True
+572,3779,True,2023-05-04 00:34:09,Career Growth,5,True
+573,3847,True,2015-11-15 23:19:37,Manager Issues,5,True
+574,2417,True,2018-05-02 06:07:10,Work-Life Balance,2,True
+575,71,True,2023-04-24 10:33:11,Salary,3,False
+576,4881,True,2024-01-10 14:17:30,Salary,2,True
+577,1127,True,2012-08-01 13:18:24,Career Growth,4,False
+578,4025,True,2016-01-08 07:27:15,Salary,1,False
+579,3251,True,2023-03-14 10:27:01,Salary,3,True
+580,3902,True,2022-08-28 19:01:54,Career Growth,1,True
+581,1096,True,2019-06-23 03:55:54,Salary,4,False
+582,4546,True,2023-09-03 12:01:43,Salary,5,False
+583,1213,True,2020-11-03 06:44:28,Manager Issues,4,True
+584,3922,True,2013-05-21 20:59:47,Career Growth,1,True
+585,1426,True,2022-06-24 17:17:11,Work-Life Balance,3,False
+586,3067,True,2019-03-20 06:38:45,Career Growth,2,True
+587,4520,True,2019-04-20 17:59:54,Salary,1,False
+588,2101,True,2023-01-22 16:13:24,Salary,3,False
+589,808,True,2019-12-11 12:02:58,Work-Life Balance,1,False
+590,4744,True,2019-06-11 11:39:06,Work-Life Balance,5,True
+591,3751,True,2024-10-28 11:18:46,Manager Issues,5,False
+592,1363,True,2024-12-28 04:47:22,Salary,2,True
+593,2318,True,2022-01-01 03:14:51,Salary,5,True
+594,4582,True,2023-04-02 08:52:01,Salary,4,False
+595,4742,True,2015-10-29 17:46:10,Manager Issues,2,False
+596,1026,True,2019-06-06 06:04:05,Career Growth,1,True
+597,3110,True,2019-01-29 05:37:58,Work-Life Balance,4,True
+598,2111,True,2017-04-02 00:46:49,Manager Issues,3,True
+599,1042,True,2021-05-17 16:37:50,Manager Issues,1,True
+600,1877,True,2023-10-31 23:33:08,Salary,5,False
+601,882,True,2015-06-24 06:28:40,Work-Life Balance,1,True
+602,4300,True,2014-09-27 00:27:16,Career Growth,5,True
+603,1193,True,2016-05-25 07:03:25,Salary,4,True
+604,4588,True,2016-04-01 01:26:58,Manager Issues,4,False
+605,4511,True,2023-05-07 13:54:45,Manager Issues,4,True
+606,3671,True,2015-02-18 07:23:29,Work-Life Balance,2,True
+607,625,True,2017-03-09 22:05:10,Work-Life Balance,5,True
+608,2797,True,2025-10-04 23:57:42,Work-Life Balance,1,True
+609,4292,True,2018-12-08 23:01:44,Salary,1,True
+610,4969,True,2019-12-03 23:09:16,Manager Issues,1,False
+611,234,True,2018-04-16 10:14:56,Work-Life Balance,2,True
+612,4567,True,2019-11-06 04:32:38,Career Growth,2,False
+613,1663,True,2024-05-19 07:54:24,Work-Life Balance,5,False
+614,416,True,2026-03-09 23:47:04,Work-Life Balance,2,True
+615,4247,True,2011-04-29 15:49:03,Salary,4,True
+616,2174,True,2020-06-25 18:23:33,Salary,1,False
+617,1457,True,2018-05-17 16:10:36,Salary,4,False
+618,747,True,2018-06-08 01:43:10,Salary,2,False
+619,18,True,2024-09-28 01:11:03,Work-Life Balance,1,False
+620,1201,True,2015-04-11 15:26:34,Manager Issues,3,False
+621,1700,True,2022-12-01 07:13:26,Career Growth,4,True
+622,3254,True,2013-08-10 02:56:59,Career Growth,3,True
+623,597,True,2021-07-31 04:43:58,Manager Issues,5,True
+624,3227,True,2021-01-27 16:50:59,Career Growth,4,False
+625,4406,True,2019-04-23 03:19:05,Work-Life Balance,1,True
+626,4720,True,2019-10-02 01:56:29,Manager Issues,1,True
+627,1506,True,2016-02-17 08:30:27,Salary,3,False
+628,1413,True,2015-08-18 02:53:58,Salary,1,True
+629,1966,True,2017-04-17 17:03:40,Salary,4,False
+630,372,True,2020-02-02 14:36:39,Work-Life Balance,2,False
+631,1341,True,2025-07-17 11:12:36,Salary,2,False
+632,599,True,2015-05-18 01:03:27,Salary,1,True
+633,239,True,2023-08-19 20:00:11,Salary,5,False
+634,3401,True,2023-03-03 13:37:34,Career Growth,4,True
+635,2068,True,2023-11-24 08:55:42,Manager Issues,5,False
+636,811,True,2018-03-13 13:45:08,Career Growth,3,True
+637,1095,True,2024-12-01 15:28:09,Work-Life Balance,1,False
+638,4325,True,2019-08-26 05:38:59,Work-Life Balance,3,True
+639,4761,True,2018-06-19 19:09:08,Work-Life Balance,5,False
+640,3677,True,2012-02-05 00:25:12,Career Growth,4,True
+641,3465,True,2018-04-16 17:47:43,Manager Issues,5,True
+642,3104,True,2014-01-14 08:06:59,Salary,2,True
+643,2750,True,2011-08-24 12:12:44,Work-Life Balance,5,False
+644,2296,True,2025-04-22 04:16:14,Work-Life Balance,5,False
+645,4193,True,2018-10-23 21:44:30,Career Growth,5,True
+646,3709,True,2022-09-26 23:30:05,Salary,5,True
+647,3019,True,2019-04-06 17:45:46,Salary,4,True
+648,4253,True,2012-08-28 23:40:45,Career Growth,1,False
+649,804,True,2021-03-19 11:11:42,Career Growth,4,True
+650,4191,True,2016-02-16 07:44:44,Career Growth,3,False
+651,3706,True,2025-02-04 16:53:08,Manager Issues,2,True
+652,752,True,2021-05-13 06:48:08,Work-Life Balance,1,False
+653,4645,True,2026-03-30 15:57:07,Work-Life Balance,2,True
+654,2532,True,2022-07-04 11:20:04,Work-Life Balance,2,False
+655,622,True,2017-09-09 19:40:01,Manager Issues,1,False
+656,2298,True,2012-03-31 14:59:23,Career Growth,1,True
+657,3829,True,2014-11-09 17:18:05,Work-Life Balance,3,True
+658,567,True,2024-04-14 18:10:10,Work-Life Balance,4,True
+659,1136,True,2024-04-07 06:37:13,Work-Life Balance,1,True
+660,1205,True,2019-05-10 20:17:43,Manager Issues,3,True
+661,1048,True,2018-11-12 02:07:57,Career Growth,5,False
+662,52,True,2012-10-26 11:46:48,Work-Life Balance,1,False
+663,3652,True,2018-06-26 13:18:37,Work-Life Balance,4,False
+664,1045,True,2023-04-30 04:45:20,Manager Issues,5,True
+665,2182,True,2019-07-21 11:29:43,Career Growth,5,False
+666,2689,True,2021-12-28 04:19:38,Career Growth,5,True
+667,535,True,2026-11-27 00:21:20,Work-Life Balance,5,False
+668,3185,True,2020-12-29 10:27:54,Salary,2,False
+669,3858,True,2019-05-12 00:06:58,Manager Issues,4,True
+670,444,True,2023-11-13 16:44:30,Salary,3,True
+671,3605,True,2019-02-28 06:10:47,Salary,1,True
+672,196,True,2021-04-17 18:00:21,Work-Life Balance,3,False
+673,1116,True,2023-05-13 12:56:08,Work-Life Balance,2,False
+674,766,True,2013-06-29 04:12:37,Work-Life Balance,5,False
+675,1946,True,2017-12-29 12:32:08,Manager Issues,1,True
+676,3248,True,2016-02-21 16:00:23,Manager Issues,4,False
+677,3003,True,2023-09-03 18:04:34,Manager Issues,1,False
+678,1433,True,2019-12-09 13:23:55,Salary,1,False
+679,4201,True,2019-07-24 15:44:51,Manager Issues,3,True
+680,3096,True,2022-07-04 21:42:43,Career Growth,5,False
+681,2923,True,2017-09-29 09:34:01,Manager Issues,4,False
+682,645,True,2017-07-27 19:49:18,Work-Life Balance,1,False
+683,1050,True,2022-10-26 14:37:35,Salary,2,False
+684,3746,True,2016-10-20 17:06:14,Manager Issues,2,True
+685,4094,True,2019-12-13 21:43:42,Work-Life Balance,5,False
+686,4404,True,2014-11-11 02:13:06,Work-Life Balance,1,True
+687,121,True,2019-03-06 05:43:35,Career Growth,5,False
+688,2053,True,2013-05-28 00:23:32,Career Growth,1,True
+689,4259,True,2016-11-30 07:04:35,Manager Issues,4,False
+690,4889,True,2017-12-30 15:08:02,Salary,2,True
+691,4335,True,2013-06-08 05:00:18,Salary,3,False
+692,4692,True,2023-01-22 00:39:29,Manager Issues,5,False
+693,135,True,2015-02-01 07:46:43,Manager Issues,4,False
+694,2461,True,2022-10-29 06:46:15,Manager Issues,2,False
+695,1955,True,2023-01-29 01:26:30,Salary,4,True
+696,2464,True,2025-04-09 16:55:53,Career Growth,3,True
+697,185,True,2016-08-09 07:42:48,Salary,1,True
+698,1393,True,2021-07-13 21:05:26,Work-Life Balance,1,False
+699,2277,True,2021-12-25 05:22:53,Career Growth,4,True
+700,512,True,2021-08-17 10:40:16,Work-Life Balance,4,False
+701,4730,True,2023-12-04 03:35:58,Salary,5,True
+702,4055,True,2018-12-11 01:29:08,Work-Life Balance,4,False
+703,3138,True,2019-02-18 15:29:13,Salary,1,False
+704,2670,True,2017-12-13 16:31:28,Career Growth,4,False
+705,4774,True,2016-06-11 14:58:33,Career Growth,2,False
+706,4862,True,2024-08-06 09:29:47,Career Growth,2,False
+707,2118,True,2016-07-26 12:55:48,Work-Life Balance,1,True
+708,252,True,2015-11-10 22:18:36,Manager Issues,4,False
+709,3527,True,2015-07-12 02:36:23,Career Growth,4,True
+710,3560,True,2022-04-07 09:51:59,Salary,4,True
+711,4012,True,2018-06-15 21:08:37,Work-Life Balance,2,False
+712,1508,True,2023-06-28 06:08:15,Career Growth,1,False
+713,123,True,2021-06-19 06:11:51,Manager Issues,5,True
+714,4260,True,2022-07-10 17:30:48,Career Growth,2,True
+715,3334,True,2021-07-09 05:26:41,Work-Life Balance,1,False
+716,1872,True,2019-06-22 23:23:24,Work-Life Balance,1,True
+717,3693,True,2015-11-19 16:17:50,Manager Issues,5,True
+718,568,True,2021-11-10 13:25:27,Manager Issues,3,True
+719,1372,True,2012-02-01 09:42:41,Salary,5,False
+720,3186,True,2018-11-08 19:19:11,Career Growth,5,True
+721,3956,True,2020-11-12 23:12:27,Work-Life Balance,1,False
+722,1057,True,2025-02-11 14:37:14,Manager Issues,3,True
+723,857,True,2023-05-31 08:55:58,Work-Life Balance,3,True
+724,3839,True,2023-07-04 05:09:28,Manager Issues,4,False
+725,2861,True,2015-08-10 08:51:48,Salary,5,False
+726,4770,True,2015-05-17 13:22:00,Career Growth,5,False
+727,777,True,2019-11-13 14:20:54,Manager Issues,3,False
+728,721,True,2019-10-29 23:11:14,Work-Life Balance,3,True
+729,2711,True,2026-12-14 08:48:42,Work-Life Balance,3,True
+730,2655,True,2019-10-12 19:43:47,Salary,1,True
+731,4878,True,2016-01-13 05:53:25,Salary,1,True
+732,603,True,2025-09-24 01:14:11,Manager Issues,1,True
+733,3823,True,2015-12-20 08:23:11,Career Growth,5,True
+734,1245,True,2019-07-15 18:30:54,Manager Issues,3,True
+735,4846,True,2024-09-02 01:32:38,Work-Life Balance,1,False
+736,4842,True,2024-11-21 12:45:44,Manager Issues,4,True
+737,319,True,2020-12-25 06:09:10,Salary,3,False
+738,829,True,2020-03-18 01:02:23,Manager Issues,3,True
+739,3264,True,2013-11-07 15:23:33,Salary,3,True
+740,275,True,2017-07-04 17:15:00,Work-Life Balance,1,True
+741,2665,True,2017-08-03 20:14:54,Career Growth,2,True
+742,550,True,2023-05-26 17:42:58,Manager Issues,4,False
+743,3642,True,2013-11-24 18:40:59,Salary,4,True
+744,4054,True,2017-04-26 14:33:36,Manager Issues,2,True
+745,4893,True,2018-12-17 07:57:13,Salary,4,True
+746,2935,True,2015-11-02 13:56:26,Salary,1,True
+747,606,True,2015-08-28 13:14:34,Salary,3,True
+748,897,True,2025-10-19 05:39:24,Manager Issues,2,True
+749,528,True,2016-08-22 07:18:34,Salary,3,False
+750,4608,True,2022-07-18 08:41:40,Manager Issues,4,False
+751,2348,True,2015-10-08 07:41:43,Salary,5,False
+752,3440,True,2024-11-14 19:17:46,Career Growth,4,False
+753,4999,True,2021-06-09 05:26:17,Salary,4,False
+754,4827,True,2020-09-29 18:14:17,Manager Issues,2,False
+755,3923,True,2021-12-18 02:23:53,Manager Issues,3,False
+756,299,True,2027-01-02 22:39:28,Manager Issues,2,True
+757,2120,True,2016-07-21 00:44:34,Work-Life Balance,1,False
+758,2537,True,2022-11-10 06:54:57,Career Growth,3,False
+759,4204,True,2020-12-26 17:09:54,Career Growth,1,False
+760,3255,True,2021-09-25 20:49:34,Career Growth,1,False
+761,3726,True,2017-01-18 12:34:24,Work-Life Balance,2,True
+762,1261,True,2014-09-10 14:58:49,Work-Life Balance,4,False
+763,1559,True,2018-06-04 08:23:52,Career Growth,5,False
+764,3270,True,2015-11-18 12:43:35,Salary,4,False
+765,4047,True,2014-11-29 07:00:25,Salary,4,False
+766,757,True,2026-08-01 17:04:12,Career Growth,3,True
+767,1011,True,2014-07-24 23:05:20,Salary,2,True
+768,2795,True,2016-07-04 22:42:36,Manager Issues,3,False
+769,2906,True,2020-01-09 03:13:06,Work-Life Balance,5,True
+770,1871,True,2018-04-21 00:47:13,Career Growth,2,False
+771,2230,True,2018-03-25 19:51:15,Salary,4,True
+772,1174,True,2016-03-19 08:04:46,Career Growth,1,True
+773,1833,True,2017-08-05 15:02:54,Career Growth,4,True
+774,377,True,2016-10-24 06:05:51,Manager Issues,4,True
+775,3854,True,2022-05-19 23:21:52,Work-Life Balance,2,False
+776,3617,True,2016-12-22 22:52:51,Work-Life Balance,4,True
+777,799,True,2022-08-21 16:19:35,Career Growth,5,False
+778,379,True,2022-06-08 21:00:49,Manager Issues,4,False
+779,1159,True,2014-11-20 03:05:46,Salary,1,True
+780,3820,True,2021-09-04 13:49:02,Work-Life Balance,2,True
+781,2793,True,2017-10-06 12:52:17,Career Growth,5,True
+782,2241,True,2013-07-12 21:12:43,Salary,2,False
+783,4036,True,2016-10-21 04:34:31,Career Growth,1,False
+784,2663,True,2015-01-31 08:09:30,Salary,3,True
+785,4013,True,2017-05-25 12:39:56,Salary,5,False
+786,2958,True,2014-03-26 20:18:48,Salary,1,True
+787,3928,True,2026-09-19 19:24:16,Salary,3,True
+788,1039,True,2025-04-09 19:31:17,Salary,1,True
+789,3260,True,2020-10-02 07:11:21,Salary,3,True
+790,1345,True,2014-12-24 00:18:06,Manager Issues,3,False
+791,2506,True,2018-04-11 16:48:38,Salary,2,True
+792,1722,True,2017-05-08 08:26:03,Salary,4,False
+793,4664,True,2018-09-21 13:44:18,Work-Life Balance,4,False
+794,176,True,2018-08-03 15:40:08,Work-Life Balance,1,False
+795,4894,True,2014-02-09 18:50:51,Salary,3,True
+796,1910,True,2023-05-11 07:18:30,Career Growth,4,False
+797,46,True,2017-08-18 09:45:41,Work-Life Balance,1,True
+798,3410,True,2013-05-28 13:33:48,Manager Issues,1,False
+799,4675,True,2014-12-27 08:04:24,Manager Issues,5,True
+800,1076,True,2016-02-19 00:58:11,Manager Issues,2,True
+801,2830,True,2024-02-20 08:14:36,Work-Life Balance,2,False
+802,1505,True,2018-10-04 08:25:41,Manager Issues,3,False
+803,2310,True,2021-02-04 10:39:41,Manager Issues,4,False
+804,1437,True,2024-03-13 11:52:28,Career Growth,3,True
+805,2419,True,2022-09-21 20:52:55,Career Growth,4,True
+806,3987,True,2021-01-20 08:57:33,Work-Life Balance,4,True
+807,3099,True,2016-07-13 11:18:49,Salary,4,False
+808,4589,True,2017-05-26 02:20:00,Career Growth,4,True
+809,284,True,2020-01-21 22:05:30,Salary,4,True
+810,4919,True,2013-02-23 02:24:17,Career Growth,5,True
+811,843,True,2024-01-13 13:46:53,Career Growth,5,True
+812,1514,True,2018-01-04 02:37:03,Career Growth,4,False
+813,1169,True,2020-09-09 20:14:04,Career Growth,1,True
+814,1593,True,2020-10-26 17:28:32,Salary,1,False
+815,3461,True,2027-09-05 11:57:42,Work-Life Balance,2,True
+816,3166,True,2015-12-03 23:43:08,Salary,4,True
+817,2285,True,2011-04-11 05:07:49,Manager Issues,1,True
+818,3576,True,2024-05-28 08:02:43,Salary,2,False
+819,4871,True,2015-12-15 20:44:05,Manager Issues,1,True
+820,2306,True,2022-07-17 10:13:18,Salary,2,False
+821,953,True,2026-01-07 20:10:12,Salary,3,True
+822,4943,True,2019-04-27 00:55:27,Career Growth,1,False
+823,3054,True,2024-07-27 11:54:09,Salary,4,True
+824,4560,True,2018-12-14 03:08:28,Career Growth,4,False
+825,2686,True,2021-05-20 12:21:10,Work-Life Balance,5,False
+826,1490,True,2026-06-23 18:45:09,Salary,3,True
+827,928,True,2020-11-07 10:29:26,Career Growth,3,True
+828,1210,True,2014-09-20 20:51:17,Manager Issues,1,False
+829,3974,True,2025-07-29 12:00:04,Career Growth,2,True
+830,3546,True,2015-01-26 14:32:18,Manager Issues,5,True
+831,4362,True,2021-10-21 18:10:17,Salary,3,True
+832,1922,True,2018-01-15 15:51:57,Work-Life Balance,3,False
+833,352,True,2022-06-18 01:47:55,Salary,4,False
+834,4899,True,2019-06-24 10:03:09,Salary,4,True
+835,3394,True,2026-05-20 19:32:59,Career Growth,2,True
+836,2722,True,2016-08-14 08:07:29,Manager Issues,1,False
+837,4982,True,2025-08-03 19:42:07,Work-Life Balance,2,True
+838,719,True,2026-10-07 23:53:01,Manager Issues,1,True
+839,2703,True,2015-02-14 12:07:41,Work-Life Balance,5,False
+840,2723,True,2022-11-16 16:24:03,Salary,3,True
+841,4562,True,2020-08-21 22:43:20,Career Growth,2,False
+842,309,True,2018-05-25 10:31:32,Manager Issues,1,True
+843,1676,True,2018-07-04 02:06:51,Salary,5,False
+844,834,True,2022-11-18 18:17:09,Salary,2,False
+845,367,True,2018-07-15 14:21:44,Career Growth,3,True
+846,4507,True,2025-03-10 15:50:31,Manager Issues,5,False
+847,2079,True,2013-01-20 15:17:16,Salary,4,True
+848,4039,True,2012-06-30 16:17:54,Career Growth,3,False
+849,4847,True,2020-12-02 08:52:08,Work-Life Balance,4,False
+850,4480,True,2017-01-12 08:56:16,Salary,5,True
+851,1747,True,2022-08-20 17:26:02,Work-Life Balance,5,True
+852,20,True,2026-06-20 05:05:53,Salary,4,False
+853,1323,True,2019-02-02 10:57:01,Career Growth,1,True
+854,3568,True,2020-02-29 20:54:04,Work-Life Balance,5,False
+855,2522,True,2016-09-04 08:13:00,Career Growth,2,False
+856,219,True,2015-04-29 20:20:18,Manager Issues,2,False
+857,1488,True,2020-02-01 18:59:39,Salary,5,True
+858,439,True,2024-05-07 04:28:35,Manager Issues,4,False
+859,4175,True,2023-10-13 04:28:46,Manager Issues,4,True
+860,2751,True,2011-08-08 17:28:29,Work-Life Balance,3,False
+861,3289,True,2024-01-01 18:01:23,Salary,4,False
+862,3434,True,2025-08-02 15:54:39,Manager Issues,1,True
+863,2526,True,2024-01-24 23:24:36,Salary,1,True
+864,4651,True,2015-09-06 16:35:46,Career Growth,2,True
+865,3689,True,2026-11-22 20:36:08,Work-Life Balance,5,False
+866,2764,True,2014-09-28 23:50:09,Manager Issues,2,False
+867,803,True,2016-02-22 01:19:18,Career Growth,5,True
+868,2998,True,2017-10-12 14:17:19,Career Growth,2,True
+869,2229,True,2027-02-07 02:05:38,Work-Life Balance,5,True
+870,4786,True,2020-09-24 09:25:01,Career Growth,5,False
+871,2078,True,2026-02-11 21:28:28,Career Growth,2,False
+872,583,True,2023-12-08 22:44:33,Manager Issues,3,False
+873,204,True,2023-01-06 09:06:00,Career Growth,1,True
+874,4347,True,2021-04-18 21:26:58,Work-Life Balance,4,False
+875,3479,True,2013-06-11 09:10:29,Career Growth,1,True
+876,2930,True,2024-08-15 18:43:08,Salary,4,True
+877,3086,True,2022-03-06 09:28:55,Career Growth,5,True
+878,1019,True,2026-08-07 01:34:29,Career Growth,2,False
+879,1584,True,2016-06-06 08:18:26,Career Growth,2,False
+880,1033,True,2014-11-24 05:10:58,Career Growth,4,False
+881,1719,True,2017-08-22 19:49:02,Manager Issues,2,True
+882,1282,True,2023-11-04 21:16:21,Manager Issues,2,False
+883,2499,True,2025-03-28 22:10:49,Salary,2,False
+884,3351,True,2017-04-01 17:05:25,Manager Issues,1,True
+885,518,True,2018-08-04 17:25:19,Work-Life Balance,2,True
+886,1748,True,2016-06-06 03:04:56,Manager Issues,3,True
+887,4653,True,2024-01-21 10:11:46,Manager Issues,4,False
+888,3733,True,2017-12-23 10:00:26,Manager Issues,1,True
+889,669,True,2026-05-04 12:11:33,Work-Life Balance,1,True
+890,4060,True,2017-12-29 04:22:24,Salary,5,False
+891,3027,True,2021-11-23 12:52:18,Career Growth,5,True
+892,4933,True,2023-02-15 18:51:15,Work-Life Balance,2,True
+893,3287,True,2013-05-12 13:06:35,Work-Life Balance,1,False
+894,2651,True,2016-06-24 04:25:39,Manager Issues,1,True
+895,4454,True,2017-09-11 10:50:28,Manager Issues,2,False
+896,3193,True,2020-05-05 11:31:14,Salary,4,True
+897,2125,True,2017-06-19 07:49:47,Manager Issues,1,False
+898,3376,True,2012-03-18 05:19:42,Work-Life Balance,5,True
+899,3393,True,2017-10-27 18:41:41,Manager Issues,2,True
+900,3486,True,2020-01-24 07:49:58,Manager Issues,1,False
+901,760,True,2023-08-09 08:19:48,Salary,5,False
+902,3380,True,2015-04-07 21:53:06,Work-Life Balance,3,False
+903,4441,True,2012-05-25 15:35:02,Work-Life Balance,1,True
+904,2527,True,2027-02-18 07:07:10,Career Growth,2,True
+905,4859,True,2014-01-18 07:41:44,Career Growth,5,True
+906,908,True,2025-11-11 18:42:53,Salary,1,False
+907,2684,True,2023-07-28 13:30:33,Work-Life Balance,5,True
+908,215,True,2024-08-09 13:03:17,Work-Life Balance,2,False
+909,3332,True,2015-01-04 10:27:05,Manager Issues,1,True
+910,4459,True,2017-04-09 06:40:59,Salary,2,False
+911,694,True,2026-06-11 09:26:13,Salary,4,False
+912,1504,True,2014-03-04 15:04:27,Career Growth,1,False
+913,2415,True,2020-03-04 12:52:05,Career Growth,1,False
+914,2119,True,2018-01-30 22:27:24,Manager Issues,5,True
+915,3859,True,2022-03-05 04:02:18,Career Growth,1,False
+916,2463,True,2021-10-08 04:32:21,Salary,4,True
+917,3636,True,2025-04-13 08:30:25,Salary,5,True
+918,4106,True,2018-09-13 19:16:59,Career Growth,5,False
+919,4479,True,2018-10-12 19:13:41,Manager Issues,3,False
+920,197,True,2018-02-28 08:11:50,Manager Issues,1,True
+921,4668,True,2016-08-13 21:29:50,Career Growth,3,True
+922,1544,True,2019-04-06 23:15:27,Work-Life Balance,4,True
+923,1331,True,2013-10-15 04:44:05,Work-Life Balance,1,False
+924,880,True,2018-02-02 18:05:53,Career Growth,3,True
+925,4503,True,2015-05-19 22:06:47,Manager Issues,3,True
+926,3502,True,2021-09-01 10:25:35,Career Growth,5,True
+927,3895,True,2018-01-13 22:10:55,Career Growth,3,True
+928,4991,True,2018-06-26 13:42:12,Salary,3,True
+929,888,True,2024-01-20 09:12:50,Manager Issues,1,True
+930,1346,True,2015-05-09 22:39:16,Manager Issues,1,False
+931,69,True,2022-12-30 04:11:43,Manager Issues,5,False
+932,4211,True,2024-12-10 13:42:16,Career Growth,1,False
+933,1816,True,2012-10-01 19:17:45,Work-Life Balance,4,False
+934,569,True,2016-05-14 23:02:42,Career Growth,5,False
+935,2168,True,2016-08-14 21:49:23,Manager Issues,4,True
+936,97,True,2020-06-06 19:11:51,Salary,1,False
+937,4182,True,2017-07-08 00:20:49,Manager Issues,1,True
+938,3354,True,2020-04-24 07:39:03,Manager Issues,5,False
+939,140,True,2021-11-29 08:13:25,Manager Issues,3,False
+940,4955,True,2021-11-18 20:19:31,Career Growth,2,False
+941,2603,True,2013-02-07 22:12:06,Work-Life Balance,2,False
+942,4024,True,2024-10-07 04:08:51,Salary,1,True
+943,4773,True,2016-02-22 12:46:46,Salary,4,True
+944,1607,True,2015-08-24 14:04:56,Work-Life Balance,5,False
+945,1630,True,2018-05-06 18:55:10,Work-Life Balance,3,True
+946,1540,True,2020-08-03 22:33:38,Work-Life Balance,1,False
+947,1695,True,2020-06-19 19:35:01,Salary,4,True
+948,2060,True,2020-07-02 02:11:01,Salary,1,False
+949,464,True,2016-10-06 03:55:30,Manager Issues,2,True
+950,2331,True,2022-06-05 17:02:20,Career Growth,1,True
+951,3044,True,2015-11-01 07:15:51,Career Growth,4,False
+952,4735,True,2014-09-01 23:00:15,Career Growth,2,False
+953,595,True,2016-06-11 18:02:09,Salary,1,True
+954,3815,True,2026-03-13 14:53:03,Work-Life Balance,2,True
+955,626,True,2023-10-30 14:39:57,Salary,5,False
+956,451,True,2015-03-04 00:06:11,Salary,4,False
+957,1500,True,2018-03-22 07:10:21,Salary,4,False
+958,2457,True,2013-09-13 14:22:54,Salary,5,False
+959,4723,True,2013-10-11 22:12:55,Career Growth,4,True
+960,2985,True,2017-11-02 23:45:10,Manager Issues,4,True
+961,1570,True,2017-02-03 05:42:02,Work-Life Balance,1,False
+962,1035,True,2021-04-15 03:17:41,Salary,3,True
+963,3519,True,2024-08-19 09:10:39,Work-Life Balance,1,False
+964,1558,True,2019-11-26 06:49:47,Work-Life Balance,5,True
+965,3625,True,2020-10-10 09:31:25,Salary,5,True
+966,4665,True,2021-08-28 17:34:49,Manager Issues,3,True
+967,151,True,2018-04-26 02:41:32,Manager Issues,1,True
+968,1421,True,2017-01-09 21:13:39,Career Growth,1,False
+969,2012,True,2024-07-09 12:33:15,Career Growth,1,False
+970,2687,True,2025-01-19 19:52:58,Manager Issues,2,True
+971,1787,True,2024-07-10 10:05:11,Salary,2,True
+972,89,True,2017-07-08 02:40:12,Career Growth,1,False
+973,458,True,2013-07-22 08:10:01,Salary,2,False
+974,1306,True,2023-11-30 00:41:37,Salary,1,False
+975,2926,True,2014-10-03 13:49:51,Salary,5,True
+976,3271,True,2018-03-13 19:55:37,Salary,1,False
+977,3228,True,2022-12-13 04:57:05,Work-Life Balance,2,False
+978,1989,True,2015-09-21 11:44:54,Work-Life Balance,3,False
+979,3755,True,2020-01-25 11:14:59,Salary,5,True
+980,3647,True,2024-01-18 00:36:59,Manager Issues,4,True
+981,832,True,2018-09-29 15:41:42,Work-Life Balance,3,False
+982,240,True,2022-03-21 20:40:26,Salary,3,False
+983,4682,True,2014-09-27 15:54:46,Salary,4,True
+984,3023,True,2023-02-01 23:25:41,Career Growth,5,True
+985,3149,True,2020-08-05 02:12:26,Career Growth,4,True
+986,1947,True,2015-03-17 13:45:15,Career Growth,5,False
+987,2776,True,2025-02-06 00:13:38,Work-Life Balance,5,False
+988,193,True,2016-10-17 13:04:50,Work-Life Balance,5,True
+989,4850,True,2014-10-03 23:57:00,Career Growth,3,False
+990,4940,True,2011-10-16 01:38:47,Career Growth,5,True
+991,945,True,2022-11-30 04:21:09,Salary,4,True
+992,1269,True,2022-07-14 04:16:36,Manager Issues,3,True
+993,4232,True,2020-02-13 19:14:56,Career Growth,5,False
+994,2308,True,2023-11-14 01:30:07,Salary,2,False
+995,4425,True,2023-09-21 01:27:41,Work-Life Balance,2,False
+996,4712,True,2016-02-03 19:42:08,Career Growth,5,True
+997,2314,True,2026-12-20 18:38:02,Work-Life Balance,2,True
+998,3215,True,2018-03-11 18:44:02,Salary,1,False
+999,2733,True,2015-06-13 15:14:22,Career Growth,3,True
+1000,1927,True,2016-07-01 14:40:55,Work-Life Balance,1,True
+1001,4228,True,2015-06-10 08:44:46,Salary,3,False
+1002,4677,True,2015-08-22 00:13:31,Career Growth,4,True
+1003,801,True,2014-02-09 13:25:10,Manager Issues,2,False
+1004,3672,True,2018-04-05 07:07:02,Manager Issues,2,False
+1005,4194,True,2020-10-10 16:04:27,Career Growth,2,False
+1006,2969,True,2020-02-22 04:41:23,Career Growth,5,True
+1007,4794,True,2020-04-14 06:26:15,Salary,3,False
+1008,4369,True,2013-08-14 18:16:17,Work-Life Balance,5,False
+1009,2777,True,2024-10-13 16:54:23,Work-Life Balance,2,True
+1010,2971,True,2016-03-08 12:55:28,Career Growth,4,False
+1011,3868,True,2014-07-18 23:36:17,Manager Issues,2,False
+1012,1744,True,2022-10-13 00:25:12,Work-Life Balance,5,True
+1013,3949,True,2021-08-16 17:29:16,Career Growth,2,True
+1014,3803,True,2018-06-03 16:07:52,Work-Life Balance,1,False
+1015,2025,True,2013-01-26 00:52:23,Salary,1,False
+1016,2275,True,2017-07-01 20:29:07,Career Growth,5,True
+1017,100,True,2014-06-06 07:18:08,Manager Issues,1,False
+1018,4922,True,2015-06-11 10:37:03,Manager Issues,3,True
+1019,3408,True,2014-04-10 23:12:33,Salary,3,True
+1020,4246,True,2020-11-23 05:35:40,Salary,5,False
+1021,4620,True,2024-03-01 04:23:00,Manager Issues,1,False
+1022,4917,True,2016-08-31 12:15:18,Manager Issues,3,False
+1023,192,True,2021-06-16 13:11:04,Salary,1,True
+1024,4697,True,2021-01-01 00:32:00,Manager Issues,2,False
+1025,1785,True,2013-05-15 23:42:04,Manager Issues,1,True
+1026,1533,True,2024-12-12 15:31:49,Work-Life Balance,1,False
+1027,2835,True,2014-08-10 03:27:11,Manager Issues,5,True
+1028,4445,True,2019-01-10 15:06:11,Salary,2,True
+1029,4916,True,2018-05-26 22:19:14,Work-Life Balance,3,True
+1030,1599,True,2019-12-29 09:07:30,Work-Life Balance,3,True
+1031,1780,True,2017-01-25 09:59:15,Manager Issues,1,True
+1032,4901,True,2023-11-08 02:58:10,Work-Life Balance,4,True
+1033,2575,True,2025-03-16 02:20:41,Career Growth,4,False
+1034,3399,True,2017-06-15 21:49:33,Salary,3,True
+1035,3976,True,2012-07-09 08:18:05,Salary,1,True
+1036,3771,True,2016-06-21 09:37:04,Manager Issues,1,False
+1037,167,True,2015-05-01 09:38:20,Manager Issues,2,False
+1038,1752,True,2020-06-20 06:34:19,Salary,5,True
+1039,1480,True,2024-10-11 04:02:37,Salary,4,True
+1040,1025,True,2017-09-09 06:37:28,Manager Issues,1,True
+1041,1789,True,2015-02-26 21:59:57,Salary,3,False
+1042,2265,True,2014-04-24 13:53:37,Manager Issues,4,True
+1043,2474,True,2018-11-09 18:15:59,Work-Life Balance,5,True
+1044,1823,True,2014-04-01 01:21:49,Career Growth,1,True
+1045,1221,True,2012-12-10 21:18:23,Career Growth,4,True
+1046,1667,True,2018-04-19 14:02:49,Career Growth,1,False
+1047,2961,True,2012-08-27 18:03:20,Work-Life Balance,5,False
+1048,153,True,2022-04-19 08:10:51,Manager Issues,2,True
+1049,2535,True,2026-05-22 20:25:39,Manager Issues,4,False
+1050,4689,True,2023-04-16 04:50:50,Manager Issues,5,True
+1051,1979,True,2023-11-07 15:07:20,Salary,2,True
+1052,1470,True,2021-03-16 04:25:47,Career Growth,2,False
+1053,2808,True,2012-12-25 21:01:02,Manager Issues,5,True
+1054,2513,True,2020-03-20 13:18:28,Manager Issues,3,False
+1055,2944,True,2021-03-15 07:29:05,Work-Life Balance,5,False
+1056,2981,True,2016-08-30 01:50:32,Manager Issues,1,True
+1057,4823,True,2014-02-09 06:11:50,Career Growth,3,False
+1058,3018,True,2017-12-07 06:09:01,Manager Issues,2,False
+1059,1567,True,2013-10-26 01:48:10,Work-Life Balance,4,False
+1060,32,True,2024-01-20 05:55:34,Career Growth,2,False
+1061,938,True,2016-08-11 12:21:30,Salary,4,True
+1062,1216,True,2017-06-09 02:39:13,Manager Issues,4,True
+1063,1938,True,2024-06-04 12:26:22,Manager Issues,5,False
+1064,1130,True,2017-11-16 17:59:14,Manager Issues,5,False
+1065,310,True,2021-12-31 11:39:00,Manager Issues,2,False
+1066,4902,True,2022-07-06 16:18:56,Work-Life Balance,5,False
+1067,2169,True,2016-08-09 18:29:30,Work-Life Balance,2,False
+1068,3114,True,2020-04-01 00:47:24,Career Growth,5,False
+1069,496,True,2027-03-10 12:00:03,Work-Life Balance,5,False
+1070,206,True,2015-10-25 02:51:00,Manager Issues,4,True
+1071,2674,True,2019-10-04 00:13:16,Career Growth,3,True
+1072,3358,True,2017-12-28 09:27:06,Salary,5,True
+1073,3831,True,2012-12-23 03:19:45,Career Growth,5,True
+1074,306,True,2012-03-25 19:02:27,Manager Issues,2,True
+1075,3794,True,2025-04-07 18:29:29,Manager Issues,4,False
+1076,2202,True,2020-09-28 10:58:29,Salary,4,False
+1077,1062,True,2022-03-08 08:55:13,Manager Issues,3,False
+1078,844,True,2015-12-08 09:32:14,Career Growth,3,True
+1079,3873,True,2019-04-11 00:53:28,Work-Life Balance,3,True
+1080,2252,True,2023-07-29 15:53:47,Work-Life Balance,5,False
+1081,212,True,2017-10-11 18:03:34,Career Growth,2,False
+1082,3998,True,2013-10-13 09:05:42,Career Growth,1,True
+1083,680,True,2025-01-21 13:03:28,Career Growth,2,True
+1084,566,True,2019-10-07 14:52:11,Salary,4,False
+1085,3291,True,2022-04-28 18:20:35,Work-Life Balance,3,False
+1086,4355,True,2017-07-30 15:05:27,Salary,1,False
+1087,681,True,2014-03-09 06:28:07,Salary,4,True
+1088,181,True,2021-11-28 23:08:18,Manager Issues,3,False
+1089,4280,True,2018-11-04 04:11:59,Work-Life Balance,1,False
+1090,2496,True,2015-08-02 00:47:42,Salary,2,True
+1091,2317,True,2019-07-04 09:45:02,Career Growth,4,True
+1092,4274,True,2020-06-07 15:34:06,Career Growth,5,False
+1093,279,True,2011-11-29 11:09:56,Career Growth,1,True
+1094,3684,True,2016-03-11 06:38:55,Manager Issues,1,False
+1095,4763,True,2026-04-09 03:07:56,Salary,2,True
+1096,433,True,2014-02-15 04:40:55,Work-Life Balance,2,False
+1097,290,True,2025-03-30 11:19:02,Work-Life Balance,4,False
+1098,1028,True,2016-10-14 00:37:43,Manager Issues,5,True
+1099,536,True,2022-02-06 00:08:27,Career Growth,3,False
+1100,3632,True,2027-09-05 11:43:05,Career Growth,1,False
+1101,189,True,2020-08-22 05:06:17,Salary,1,True
+1102,2175,True,2011-10-21 15:50:24,Work-Life Balance,4,True
+1103,3916,True,2015-12-13 04:03:01,Work-Life Balance,3,True
+1104,1863,True,2017-06-02 05:09:17,Career Growth,3,True
+1105,271,True,2024-04-26 02:10:41,Career Growth,3,True
+1106,1729,True,2020-01-17 21:20:43,Work-Life Balance,4,True
+1107,4076,True,2015-06-02 22:25:46,Work-Life Balance,1,True
+1108,2158,True,2023-06-17 03:22:35,Work-Life Balance,2,True
+1109,3932,True,2018-04-08 10:42:11,Salary,1,False
+1110,112,True,2021-01-02 14:10:25,Salary,2,False
+1111,2385,True,2021-12-24 22:13:07,Career Growth,2,True
+1112,221,True,2020-04-30 04:36:12,Manager Issues,4,True
+1113,628,True,2017-04-12 08:01:13,Career Growth,3,False
+1114,1182,True,2018-09-23 08:44:13,Work-Life Balance,4,True
+1115,3382,True,2015-03-09 14:17:57,Manager Issues,2,False
+1116,2423,True,2018-05-07 18:41:09,Salary,1,False
+1117,791,True,2024-08-05 08:42:01,Career Growth,2,True
+1118,4276,True,2020-07-22 07:53:15,Salary,4,False
+1119,462,True,2017-02-10 15:42:27,Manager Issues,1,False
+1120,4403,True,2013-07-01 00:31:57,Salary,3,True
+1121,552,True,2023-05-19 23:03:16,Work-Life Balance,4,False
+1122,3130,True,2020-03-27 22:36:35,Work-Life Balance,5,False
+1123,1445,True,2022-09-27 18:45:02,Salary,2,False
+1124,199,True,2022-09-17 12:00:37,Career Growth,3,False
+1125,2590,True,2021-03-23 19:03:57,Work-Life Balance,3,False
+1126,403,True,2020-09-14 11:11:14,Manager Issues,1,True
+1127,3960,True,2017-05-16 03:33:15,Career Growth,4,True
+1128,4190,True,2022-08-08 14:13:17,Salary,2,False
+1129,4764,True,2026-06-20 04:17:48,Manager Issues,5,False
+1130,2096,True,2022-04-08 00:00:05,Salary,2,True
+1131,2901,True,2020-12-04 20:42:08,Career Growth,4,True
+1132,4463,True,2013-05-04 18:18:16,Work-Life Balance,3,True
+1133,651,True,2020-01-11 14:16:12,Work-Life Balance,5,False
+1134,709,True,2023-07-29 06:35:32,Work-Life Balance,1,True
+1135,1481,True,2022-03-13 02:45:37,Work-Life Balance,4,True
+1136,4415,True,2020-05-16 04:46:32,Manager Issues,2,True
+1137,3066,True,2015-06-11 16:32:17,Manager Issues,4,False
+1138,2396,True,2014-07-10 17:00:06,Career Growth,1,False
+1139,1770,True,2019-01-23 01:06:53,Career Growth,2,True
+1140,315,True,2024-05-06 02:16:20,Career Growth,5,False
+1141,3762,True,2022-04-08 01:56:10,Salary,2,True
+1142,4910,True,2015-09-04 18:45:33,Work-Life Balance,2,True
+1143,114,True,2020-09-13 08:12:16,Work-Life Balance,1,False
+1144,961,True,2024-04-17 02:38:44,Career Growth,2,False
+1145,2911,True,2020-07-23 13:06:45,Career Growth,4,True
+1146,3406,True,2016-11-21 16:08:33,Manager Issues,3,False
+1147,1624,True,2019-10-19 03:42:24,Work-Life Balance,1,False
+1148,3323,True,2014-03-05 16:29:23,Work-Life Balance,1,False
+1149,5000,True,2022-03-26 06:41:10,Work-Life Balance,1,False
+1150,1819,True,2021-09-18 07:38:42,Manager Issues,4,True
+1151,3195,True,2017-04-29 01:43:05,Career Growth,4,True
+1152,3008,True,2024-03-06 10:00:45,Manager Issues,4,True
+1153,3415,True,2020-02-03 11:10:24,Career Growth,4,True
+1154,4529,True,2022-05-02 11:21:14,Career Growth,2,True
+1155,1898,True,2021-05-03 10:41:20,Career Growth,1,False
+1156,1919,True,2015-09-18 18:46:58,Career Growth,1,False
+1157,1271,True,2022-12-02 09:32:34,Work-Life Balance,5,True
+1158,4177,True,2024-02-07 10:43:32,Manager Issues,3,True
+1159,4963,True,2016-01-07 13:34:32,Work-Life Balance,2,True
+1160,4884,True,2020-09-17 12:13:32,Salary,3,True
+1161,4095,True,2016-06-17 10:59:02,Work-Life Balance,2,False
+1162,3160,True,2018-06-21 16:10:22,Career Growth,2,False
+1163,1814,True,2015-11-19 16:15:49,Career Growth,2,False
+1164,2427,True,2024-12-19 01:55:12,Career Growth,1,False
+1165,3951,True,2024-08-06 18:43:12,Work-Life Balance,3,False
+1166,4429,True,2013-07-29 15:42:25,Career Growth,3,False
+1167,2143,True,2023-05-27 01:24:47,Salary,4,False
+1168,1627,True,2015-08-29 10:14:38,Work-Life Balance,3,True
+1169,790,True,2025-11-08 14:01:56,Work-Life Balance,4,True
+1170,3787,True,2023-08-29 13:40:01,Salary,5,True
+1171,1865,True,2016-11-08 18:34:09,Work-Life Balance,4,False
+1172,2866,True,2021-06-18 10:28:43,Career Growth,2,False
+1173,872,True,2018-03-17 05:33:38,Career Growth,1,True
+1174,3272,True,2019-12-08 07:36:41,Salary,2,True
+1175,3834,True,2023-09-05 17:53:54,Salary,5,False
+1176,74,True,2024-07-11 00:52:17,Work-Life Balance,1,False
+1177,1753,True,2018-12-09 16:20:52,Work-Life Balance,5,False
+1178,1422,True,2022-04-29 16:21:42,Work-Life Balance,2,False
+1179,4222,True,2016-07-05 22:55:27,Career Growth,1,False
+1180,4694,True,2022-10-10 17:03:51,Salary,5,False
+1181,4370,True,2016-11-20 22:15:29,Career Growth,4,True
+1182,4576,True,2017-08-08 20:07:39,Salary,3,False
+1183,3810,True,2017-01-25 09:25:34,Manager Issues,2,True
+1184,2245,True,2015-02-14 04:52:18,Salary,4,True
+1185,3048,True,2023-01-02 20:24:47,Manager Issues,5,True
+1186,2446,True,2021-07-14 19:29:07,Salary,5,False
+1187,495,True,2025-10-24 04:33:05,Career Growth,1,False
+1188,3131,True,2018-07-05 03:32:32,Work-Life Balance,4,True
+1189,4322,True,2017-10-12 14:05:58,Work-Life Balance,5,False
+1190,4398,True,2013-05-25 13:34:59,Work-Life Balance,1,False
+1191,1165,True,2015-11-08 14:47:04,Manager Issues,3,True
+1192,3735,True,2013-04-05 13:49:43,Work-Life Balance,3,True
+1193,1731,True,2025-03-27 08:12:02,Career Growth,1,True
+1194,4813,True,2026-11-06 07:56:01,Career Growth,4,False
+1195,2403,True,2017-02-08 14:18:01,Salary,1,False
+1196,3404,True,2015-12-09 20:06:14,Work-Life Balance,1,False
+1197,619,True,2022-06-01 20:11:55,Career Growth,4,True
+1198,1698,True,2016-04-11 12:26:58,Work-Life Balance,3,False
+1199,3594,True,2012-02-10 03:26:22,Salary,5,False
+1200,1958,True,2025-02-24 20:02:09,Manager Issues,3,False
