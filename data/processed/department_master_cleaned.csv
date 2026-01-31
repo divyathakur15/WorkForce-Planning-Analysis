@@ -1,0 +1,21 @@
+department_id,department_name,business_unit,region,cost_center
+1,Human Resources,Technology,APAC,CC001
+2,Engineering,Corporate,APAC,CC002
+3,Sales,Technology,EMEA,CC003
+4,Marketing,Technology,EMEA,CC004
+5,Finance,Corporate,APAC,CC005
+6,Operations,Corporate,APAC,CC006
+7,Information Technology,Technology,APAC,CC007
+8,Research & Development,Operations,,CC008
+9,Customer Service,Technology,,CC009
+10,Product Management,Technology,,CC010
+11,Legal,Technology,EMEA,CC011
+12,Supply Chain,Technology,,CC012
+13,Quality Assurance,Corporate,EMEA,CC013
+14,Business Development,Technology,EMEA,CC014
+15,Analytics,Operations,,CC015
+16,Procurement,Corporate,EMEA,CC016
+17,Corporate Strategy,Operations,,CC017
+18,Facilities,Operations,,CC018
+19,Training & Development,Operations,APAC,CC019
+20,Security,Operations,,CC020

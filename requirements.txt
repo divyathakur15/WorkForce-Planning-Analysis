@@ -1,0 +1,20 @@
+# Core Data Analysis
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Data Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Machine Learning (optional)
+scikit-learn>=1.2.0
+
+# Jupyter Notebooks (optional)
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Data Validation
+openpyxl>=3.0.0  # For Excel file support
+
+# Utilities
+python-dateutil>=2.8.0
