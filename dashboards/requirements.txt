@@ -1,0 +1,14 @@
+# Dashboard Dependencies
+
+# Core Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Visualization
+plotly>=5.17.0
+
+# Interactive Dashboard
+streamlit>=1.28.0
+
+# Additional Utilities
+python-dateutil>=2.8.2
