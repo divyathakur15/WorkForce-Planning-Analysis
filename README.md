@@ -1,10 +1,86 @@
 # 📊 Workforce Planning Analysis
 
-A comprehensive data analytics project focused on employee attrition prediction and retention strategy using enterprise HR data.
+A comprehensive data analytics project ## 📁 Project Structure
+
+```
+WorkForce-Planning-Analysis/
+│
+├── 📂 dashboards/ ⭐ INTERACTIVE DASHBOARD (USE THIS!)
+│   ├── streamlit_app.py             # Main interactive dashboard
+│   ├── dashboard_config.py          # Configuration & styling
+│   ├── kpi_card.py                  # KPI components
+│   ├── chart_components.py          # Chart templates
+│   ├── requirements.txt             # Dashboard dependencies
+│   ├── README.md                    # Dashboard documentation
+│   └── output/                      # Generated files (not tracked)
+│
+├── 📂 notebook/                      # Data Processing & EDA
+│   ├── outputs/
+│   │   ├── EDA IN WorkForce.ipynb   # Exploratory analysis notebook
+│   │   └── outputs/                 # ⚠️ STATIC snapshots (reference only)
+│   │       ├── *.png                # Static chart images
+│   │       └── interactive_dashboard.html  # Old static HTML
+│   ├── data_cleaning_pipeline.py    # Automated cleaning
+│   └── verify_cleaned_data.py       # Quality checks
+│
+├── 📂 data/                          # All datasets
+│   ├── raw/                          # Original data (archived)
+│   └── processed/                    # ⭐ Cleaned, production-ready data
+│
+├── 📂 docs/                          # Project documentation
+│   ├── QUICK_START.md               # Getting started guide
+│   ├── DATA_DICTIONARY.md           # Complete column specs
+│   ├── DATA_CLEANING_SUMMARY.md     # Cleaning report
+│   └── *.md                         # Other documentation
+│
+├── 📂 scripts/                       # Utility scripts
+│   ├── cleanup_project.ps1          # Project cleanup
+│   └── git_push.ps1                 # Git automation
+│
+├── 📄 README.md                      # This file
+├── 📄 .gitignore                     # Git ignore rules
+└── 📄 requirements.txt               # Python dependencies
+```
+
+**🎯 Key Folders:**
+- **`dashboards/`** → Use this for live, interactive analysis
+- **`notebook/outputs/outputs/`** → Reference only (static snapshots from initial EDA)
+- **`data/processed/`** → Production-ready cleaned data
+
+--- attrition prediction and retention strategy using enterprise HR data.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Data Quality](https://img.shields.io/badge/Data%20Quality-10%2F10-brightgreen.svg)](docs/DATA_CLEANING_SUMMARY.md)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-success.svg)](data/processed/)
+[![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-red.svg)](dashboards/)
+
+---
+
+## 🎨 **LIVE INTERACTIVE DASHBOARD** ⭐
+
+**Want to see the insights in action?** Run the professional interactive dashboard:
+
+```bash
+# Navigate to dashboards folder
+cd dashboards
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the dashboard
+streamlit run streamlit_app.py
+```
+
+**🌐 Then open your browser to:** `http://localhost:8501`
+
+**Features:**
+- 📊 20 interactive visualizations across 4 tabs
+- 🎯 6 real-time KPI cards
+- 🔍 Dynamic filters (Department, Job Level, Tenure)
+- 🎨 Professional UI with meaningful labels (no confusing numbers!)
+- 📈 Overview, Demographics, Attrition, Performance analytics
+
+**📚 For detailed dashboard documentation, see:** [`dashboards/README.md`](dashboards/README.md)
 
 ---
 
@@ -20,7 +96,31 @@ Employee attrition is one of the most expensive challenges for organizations. Th
 
 ---
 
-## 📁 Project Structure
+## � **Two Analysis Components**
+
+This project contains **two complementary analysis tools** for different audiences:
+
+### 1. 🎨 **Interactive Streamlit Dashboard** (RECOMMENDED)
+- **Location:** `dashboards/streamlit_app.py`
+- **Purpose:** Real-time workforce analytics for business users
+- **Audience:** HR managers, executives, stakeholders
+- **Features:** Live filters, interactive charts, real-time KPIs
+- **Run:** `cd dashboards && streamlit run streamlit_app.py`
+- **Access:** `http://localhost:8501`
+
+### 2. 📓 **EDA Jupyter Notebook** (Analysis Documentation)
+- **Location:** `notebook/outputs/EDA IN WorkForce.ipynb`
+- **Purpose:** Exploratory data analysis and methodology documentation
+- **Audience:** Data scientists, analysts, technical reviewers
+- **Features:** Statistical analysis, correlation studies, static visualizations
+- **Output:** Static images in `notebook/outputs/outputs/` (PNG files, HTML)
+- **Note:** ⚠️ These are **static snapshots** from initial analysis, not the live dashboard
+
+**💡 TIP:** Use the **Streamlit Dashboard** for live analysis. The notebook outputs are for reference only.
+
+---
+
+## �📁 Project Structure
 
 ```
 WorkForce-Planning-Analysis/
