@@ -123,7 +123,16 @@ CHART_CONFIG = {
         'zeroline': False,
         'showline': True,
         'linewidth': 1,
-        'linecolor': COLORS['light']
+        'linecolor': COLORS['light'],
+        'title': {
+            'font': {
+                'size': 13,
+                'weight': 700
+            }
+        },
+        'tickfont': {
+            'size': 11
+        }
     },
     'yaxis': {
         'showgrid': True,
@@ -132,7 +141,16 @@ CHART_CONFIG = {
         'zeroline': False,
         'showline': True,
         'linewidth': 1,
-        'linecolor': COLORS['light']
+        'linecolor': COLORS['light'],
+        'title': {
+            'font': {
+                'size': 13,
+                'weight': 700
+            }
+        },
+        'tickfont': {
+            'size': 11
+        }
     },
     'hoverlabel': {
         'bgcolor': COLORS['dark'],

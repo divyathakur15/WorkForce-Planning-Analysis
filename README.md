@@ -1,53 +1,67 @@
-# 📊 Workforce Planning Analysis
+# 📊 Workforce Planning Analysis Dashboard
 
-A comprehensive data analytics project ## 📁 Project Structure
+> **A comprehensive, interactive HR analytics dashboard for workforce planning, attrition analysis, and strategic insights.**
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red)](https://streamlit.io/)
+[![Plotly](https://img.shields.io/badge/Plotly-5.x-green)](https://plotly.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
+---
+
+## 🚀 Quick Start
+
+### **Launch the Dashboard**
+```bash
+cd dashboards
+streamlit run streamlit_app.py
+```
+Or simply double-click: `dashboards/run_dashboards.bat`
+
+**Access at:** `http://localhost:8501`
+
+---
+
+## 📁 Project Structure
 
 ```
 WorkForce-Planning-Analysis/
 │
-├── 📂 dashboards/ ⭐ INTERACTIVE DASHBOARD (USE THIS!)
-│   ├── streamlit_app.py             # Main interactive dashboard
-│   ├── dashboard_config.py          # Configuration & styling
-│   ├── kpi_card.py                  # KPI components
-│   ├── chart_components.py          # Chart templates
-│   ├── requirements.txt             # Dashboard dependencies
-│   ├── README.md                    # Dashboard documentation
-│   └── output/                      # Generated files (not tracked)
+├── � dashboards/              # ⭐ MAIN INTERACTIVE DASHBOARD
+│   ├── streamlit_app.py        # Main dashboard application
+│   ├── chart_components.py     # Reusable chart functions
+│   ├── dashboard_config.py     # Configuration & styling
+│   ├── kpi_card.py             # KPI card components
+│   ├── requirements.txt        # Dashboard dependencies
+│   └── README.md               # Dashboard documentation
 │
-├── 📂 notebook/                      # Data Processing & EDA
-│   ├── outputs/
-│   │   ├── EDA IN WorkForce.ipynb   # Exploratory analysis notebook
-│   │   └── outputs/                 # ⚠️ STATIC snapshots (reference only)
-│   │       ├── *.png                # Static chart images
-│   │       └── interactive_dashboard.html  # Old static HTML
-│   ├── data_cleaning_pipeline.py    # Automated cleaning
-│   └── verify_cleaned_data.py       # Quality checks
+├── 📁 Raw dataset/             # Original HR data files
+│   ├── employees_master.csv    # Employee information
+│   ├── department_master.csv   # Department details
+│   ├── attendance_records.csv  # Attendance tracking
+│   ├── performance_reviews.csv # Performance data
+│   ├── training_and_skills.csv # Training records
+│   ├── compensation_history.csv# Salary information
+│   ├── engagement_surveys.csv  # Employee surveys
+│   ├── attrition_events.csv    # Exit data
+│   └── job_history.csv         # Job transitions
 │
-├── 📂 data/                          # All datasets
-│   ├── raw/                          # Original data (archived)
-│   └── processed/                    # ⭐ Cleaned, production-ready data
+├── � notebooks/               # Jupyter notebooks (EDA)
+├── 📁 scripts/                 # Utility scripts
+├── 📁 reports/                 # Generated reports
+├── � docs/                    # Documentation
+│   ├── Domain.md               # Business domain
+│   ├── Description.md          # Project details
+│   ├── EndGoal.md              # Objectives
+│   └── IDEA.md                 # Project ideation
 │
-├── 📂 docs/                          # Project documentation
-│   ├── QUICK_START.md               # Getting started guide
-│   ├── DATA_DICTIONARY.md           # Complete column specs
-│   ├── DATA_CLEANING_SUMMARY.md     # Cleaning report
-│   └── *.md                         # Other documentation
-│
-├── 📂 scripts/                       # Utility scripts
-│   ├── cleanup_project.ps1          # Project cleanup
-│   └── git_push.ps1                 # Git automation
-│
-├── 📄 README.md                      # This file
-├── 📄 .gitignore                     # Git ignore rules
-└── 📄 requirements.txt               # Python dependencies
+├── 📄 README.md                # This file
+├── 📄 STRUCTURE.md             # Detailed structure guide
+├── 📄 requirements.txt         # Python dependencies
+└── 📄 .gitignore               # Git ignore rules
 ```
 
-**🎯 Key Folders:**
-- **`dashboards/`** → Use this for live, interactive analysis
-- **`notebook/outputs/outputs/`** → Reference only (static snapshots from initial EDA)
-- **`data/processed/`** → Production-ready cleaned data
-
---- attrition prediction and retention strategy using enterprise HR data.
+---
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Data Quality](https://img.shields.io/badge/Data%20Quality-10%2F10-brightgreen.svg)](docs/DATA_CLEANING_SUMMARY.md)

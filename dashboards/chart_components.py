@@ -31,10 +31,10 @@ def create_bar_chart(data, x_col, y_col, title, color=None, horizontal=False):
         ))
     
     fig.update_layout(
-        title=dict(text=title, font=dict(size=16, color=COLORS['dark'])),
+        title=dict(text=title, font=dict(size=16, color=COLORS['dark'], family='Segoe UI, Arial, sans-serif', weight=700)),
         **CHART_CONFIG,
         margin=dict(t=50, b=40, l=50, r=30),
-        height=350
+        height=320
     )
     
     return fig
@@ -57,10 +57,10 @@ def create_line_chart(data, x_col, y_col, title, color=None, show_markers=True):
     ))
     
     fig.update_layout(
-        title=dict(text=title, font=dict(size=16, color=COLORS['dark'])),
+        title=dict(text=title, font=dict(size=16, color=COLORS['dark'], family='Segoe UI, Arial, sans-serif', weight=700)),
         **CHART_CONFIG,
         margin=dict(t=50, b=40, l=50, r=30),
-        height=350
+        height=320
     )
     
     return fig
@@ -82,10 +82,10 @@ def create_pie_chart(data, values_col, names_col, title, colors=None):
     ))
     
     fig.update_layout(
-        title=dict(text=title, font=dict(size=16, color=COLORS['dark'])),
+        title=dict(text=title, font=dict(size=16, color=COLORS['dark'], family='Segoe UI, Arial, sans-serif', weight=700)),
         **CHART_CONFIG,
         margin=dict(t=50, b=30, l=30, r=30),
-        height=350,
+        height=320,
         showlegend=True,
         legend=dict(
             orientation="v",
@@ -116,10 +116,10 @@ def create_donut_chart(data, values_col, names_col, title, colors=None):
     ))
     
     fig.update_layout(
-        title=dict(text=title, font=dict(size=16, color=COLORS['dark'])),
+        title=dict(text=title, font=dict(size=16, color=COLORS['dark'], family='Segoe UI, Arial, sans-serif', weight=700)),
         **CHART_CONFIG,
         margin=dict(t=50, b=30, l=30, r=30),
-        height=350,
+        height=320,
         showlegend=True,
         legend=dict(
             orientation="v",
@@ -151,11 +151,11 @@ def create_stacked_bar_chart(data, x_col, y_cols, title, colors=None):
         ))
     
     fig.update_layout(
-        title=title,
+        title=dict(text=title, font=dict(size=16, color=COLORS['dark'], family='Segoe UI, Arial, sans-serif', weight=700)),
         barmode='stack',
         **CHART_CONFIG,
         margin=dict(t=60, b=60, l=60, r=40),
-        height=400,
+        height=320,
         legend=dict(
             orientation="h",
             yanchor="bottom",
@@ -185,11 +185,11 @@ def create_grouped_bar_chart(data, x_col, y_cols, title, colors=None):
         ))
     
     fig.update_layout(
-        title=title,
+        title=dict(text=title, font=dict(size=16, color=COLORS['dark'], family='Segoe UI, Arial, sans-serif', weight=700)),
         barmode='group',
         **CHART_CONFIG,
         margin=dict(t=60, b=60, l=60, r=40),
-        height=400,
+        height=320,
         legend=dict(
             orientation="h",
             yanchor="bottom",
@@ -220,10 +220,10 @@ def create_heatmap(data, x_col, y_col, z_col, title, colorscale='Blues'):
     ))
     
     fig.update_layout(
-        title=title,
+        title=dict(text=title, font=dict(size=16, color=COLORS['dark'], family='Segoe UI, Arial, sans-serif', weight=700)),
         **CHART_CONFIG,
         margin=dict(t=60, b=60, l=120, r=40),
-        height=400
+        height=320
     )
     
     return fig
@@ -244,7 +244,7 @@ def create_gauge_chart(value, title, min_val=0, max_val=100, threshold_low=30,
     fig = go.Figure(go.Indicator(
         mode="gauge+number+delta",
         value=value,
-        title={'text': title, 'font': {'size': 20}},
+        title={'text': title, 'font': {'size': 16, 'color': COLORS['dark'], 'family': 'Segoe UI, Arial, sans-serif', 'weight': 700}},
         delta={'reference': (threshold_low + threshold_high) / 2},
         gauge={
             'axis': {'range': [min_val, max_val], 'tickwidth': 1},
@@ -263,9 +263,11 @@ def create_gauge_chart(value, title, min_val=0, max_val=100, threshold_low=30,
     ))
     
     fig.update_layout(
-        **CHART_CONFIG,
+        plot_bgcolor=CHART_CONFIG['plot_bgcolor'],
+        paper_bgcolor=CHART_CONFIG['paper_bgcolor'],
+        font=CHART_CONFIG['font'],
         margin=dict(t=50, b=30, l=30, r=30),
-        height=280
+        height=260
     )
     
     return fig
@@ -290,10 +292,10 @@ def create_multi_line_chart(data, x_col, y_cols, title, colors=None):
         ))
     
     fig.update_layout(
-        title=title,
+        title=dict(text=title, font=dict(size=16, color=COLORS['dark'], family='Segoe UI, Arial, sans-serif', weight=700)),
         **CHART_CONFIG,
         margin=dict(t=60, b=60, l=60, r=40),
-        height=400,
+        height=320,
         legend=dict(
             orientation="h",
             yanchor="bottom",
@@ -330,12 +332,12 @@ def create_scatter_plot(data, x_col, y_col, title, color_col=None, size_col=None
                 opacity=0.6
             )
         ))
-        fig.update_layout(title=title)
+        fig.update_layout(title=dict(text=title, font=dict(size=16, color=COLORS['dark'], family='Segoe UI, Arial, sans-serif', weight=700)))
     
     fig.update_layout(
         **CHART_CONFIG,
         margin=dict(t=60, b=60, l=60, r=40),
-        height=400
+        height=320
     )
     
     return fig

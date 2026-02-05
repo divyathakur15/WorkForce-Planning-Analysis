@@ -1,4 +1,15 @@
 """
+Rebuild the dashboard with all improvements while keeping tab structure
+This will create a clean version with:
+- Compact spacing
+- Graphics and emojis
+- Bolder axes
+- Interactive and attractive design
+- Tab navigation (NOT single page)
+"""
+
+# The complete clean dashboard code
+dashboard_code = '''"""
 Interactive Streamlit Dashboard for Workforce Planning Analysis
 Professional dashboard with filters, KPIs, and dynamic visualizations
 """
@@ -27,12 +38,12 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for professional styling with vibrant colors and compact layout
+# Custom CSS for professional styling with vibrant colors and COMPACT layout
 st.markdown("""
     <style>
-    /* Main background with subtle gradient */
+    /* Main background with gradient */
     .main {
-        background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #f0fdf4 100%);
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         background-attachment: fixed;
     }
     
@@ -43,18 +54,18 @@ st.markdown("""
         max-width: 98% !important;
     }
     
-    /* Metrics styling */
+    /* Metrics styling - COMPACT */
     .stMetric {
         background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.9) 100%);
-        padding: 15px !important;
+        padding: 12px !important;
         border-radius: 12px;
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
         border-left: 4px solid #2563EB;
-        transition: transform 0.2s;
+        transition: transform 0.2s, box-shadow 0.2s;
     }
     
     .stMetric:hover {
-        transform: translateY(-5px);
+        transform: translateY(-3px) scale(1.02);
         box-shadow: 0 12px 24px rgba(0,0,0,0.15);
     }
     
@@ -65,28 +76,30 @@ st.markdown("""
     }
     
     div[data-testid="stMetricValue"] {
-        font-size: 26px !important;
+        font-size: 24px !important;
         font-weight: 700;
         color: #2563EB;
+        animation: fadeIn 0.5s;
     }
     
     div[data-testid="stMetricLabel"] {
-        font-size: 12px !important;
+        font-size: 11px !important;
         font-weight: 600;
-        color: #1e293b;
+        color: #64748B;
         text-transform: uppercase;
         letter-spacing: 0.5px;
     }
     
     /* Headers - COMPACT */
     h1 {
-        color: #1e293b;
+        color: white;
         font-family: 'Segoe UI', sans-serif;
         font-weight: 700;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
         margin-bottom: 0.2rem !important;
         margin-top: 0.2rem !important;
         padding: 0 !important;
+        animation: slideInDown 0.6s;
     }
     
     h2, h3 {
@@ -156,12 +169,13 @@ st.markdown("""
         border-radius: 8px;
     }
     
-    /* Tabs styling */
+    /* Tabs styling - MODERN & ATTRACTIVE */
     .stTabs [data-baseweb="tab-list"] {
         gap: 8px;
         background-color: rgba(255,255,255,0.9);
         border-radius: 10px;
         padding: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     
     .stTabs [data-baseweb="tab"] {
@@ -172,11 +186,18 @@ st.markdown("""
         font-weight: 600;
         font-size: 14px;
         padding: 0 20px;
+        transition: all 0.3s ease;
+    }
+    
+    .stTabs [data-baseweb="tab"]:hover {
+        background-color: rgba(37, 99, 235, 0.1);
+        transform: translateY(-2px);
     }
     
     .stTabs [aria-selected="true"] {
         background: linear-gradient(135deg, #2563EB 0%, #8B5CF6 100%);
         color: white;
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
     }
     
     /* Chart containers - COMPACT */
@@ -186,6 +207,12 @@ st.markdown("""
         padding: 8px !important;
         box-shadow: 0 4px 6px rgba(0,0,0,0.07);
         margin-bottom: 0.5rem !important;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .js-plotly-plot:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.12);
     }
     
     /* Info boxes */
@@ -219,9 +246,26 @@ st.markdown("""
         padding: 0.3rem !important;
     }
     
-    /* Compact chart titles */
-    .plotly .gtitle {
-        font-weight: 700 !important;
+    /* Animations */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    @keyframes slideInDown {
+        from {
+            transform: translateY(-20px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
     }
     </style>
 """, unsafe_allow_html=True)
@@ -382,19 +426,19 @@ def calculate_kpis(data):
 def main():
     """Main dashboard application"""
     
-    # Compact header with graphics
+    # COMPACT HEADER WITH GRAPHICS
     st.markdown("""
-        <div style='background: linear-gradient(135deg, #2563EB 0%, #8B5CF6 50%, #EC4899 100%); 
-                    border-radius: 15px; padding: 1rem 2rem 0.8rem 2rem; margin-bottom: 0.5rem;
-                    border: 2px solid rgba(255,255,255,0.3); box-shadow: 0 8px 32px rgba(37, 99, 235, 0.3);'>
+        <div style='background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.05) 100%); 
+                    border-radius: 15px; padding: 0.8rem 2rem 0.6rem 2rem; margin-bottom: 0.5rem;
+                    border: 2px solid rgba(255,255,255,0.2); box-shadow: 0 8px 32px rgba(0,0,0,0.1);'>
             <div style='text-align: center;'>
-                <div style='font-size: 3.5rem; margin-bottom: 0.3rem; animation: pulse 2s ease-in-out infinite;'>
-                    📊 💼 👥
+                <div style='font-size: 2.8rem; margin-bottom: 0.2rem; animation: pulse 2s infinite;'>
+                    📊 💼 👥 📈
                 </div>
-                <h1 style='font-size: 2.5rem; margin: 0; padding: 0; line-height: 1.2; color: white;'>
+                <h1 style='font-size: 2.2rem; margin: 0; padding: 0; line-height: 1.2;'>
                     Workforce Planning Dashboard
                 </h1>
-                <p style='font-size: 1rem; color: rgba(255,255,255,0.95); margin: 0.3rem 0 0 0; 
+                <p style='font-size: 0.95rem; color: rgba(255,255,255,0.95); margin: 0.2rem 0 0 0; 
                           font-weight: 500; letter-spacing: 1px;'>
                     ⚡ Real-time HR Analytics & Strategic Insights ⚡
                 </p>
@@ -406,22 +450,18 @@ def main():
     with st.spinner("Loading data..."):
         data = load_data()
     
-    # Sidebar filters with better styling - Compact and attractive
+    # Sidebar filters with better styling
     st.sidebar.markdown("""
-        <div style='text-align: center; padding: 0.5rem 0 0.5rem 0; 
-                    background: linear-gradient(135deg, #2563EB 0%, #8B5CF6 50%, #EC4899 100%);
-                    border-radius: 12px; margin: -1rem -1rem 1rem -1rem; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);'>
-            <div style='font-size: 2rem; margin-bottom: 0.2rem; animation: pulse 2s ease-in-out infinite;'>
-                🔍
-            </div>
-            <h1 style='color: white; font-size: 1.6rem; margin: 0; font-weight: 700; letter-spacing: 2px;'>FILTERS</h1>
-            <p style='color: rgba(255,255,255,0.95); margin: 0.2rem 0 0 0; font-size: 0.85rem; font-weight: 500;'>
-                ⚡ Customize Your View ⚡
+        <div style='text-align: center; padding: 1rem 0 0.8rem 0;'>
+            <div style='font-size: 2rem; margin-bottom: 0.3rem;'>🔍</div>
+            <h1 style='color: white; font-size: 1.8rem; margin: 0; font-weight: 700;'>FILTERS</h1>
+            <p style='color: rgba(255,255,255,0.8); margin: 0.3rem 0 0 0; font-size: 0.85rem;'>
+                Customize your view
             </p>
         </div>
     """, unsafe_allow_html=True)
     
-    st.sidebar.markdown("<div style='margin: 1rem 0 0.5rem 0;'></div>", unsafe_allow_html=True)
+    st.sidebar.markdown("<div style='height: 2px; background: rgba(255,255,255,0.3); margin: 1rem 0;'></div>", unsafe_allow_html=True)
     
     # Department filter with label
     st.sidebar.markdown("""
@@ -441,7 +481,7 @@ def main():
         label_visibility="collapsed"
     )
     
-    st.sidebar.markdown("<div style='margin: 0.8rem 0;'></div>", unsafe_allow_html=True)
+    st.sidebar.markdown("<div style='margin: 1rem 0;'></div>", unsafe_allow_html=True)
     
     # Job level filter with label
     st.sidebar.markdown("""
@@ -464,7 +504,7 @@ def main():
     # Convert back to numeric values for filtering
     selected_job_levels = [k for k, v in job_level_options.items() if v in selected_job_level_labels]
     
-    st.sidebar.markdown("<div style='margin: 0.8rem 0;'></div>", unsafe_allow_html=True)
+    st.sidebar.markdown("<div style='margin: 1rem 0;'></div>", unsafe_allow_html=True)
     
     # Tenure filter with label
     st.sidebar.markdown("""
@@ -485,34 +525,35 @@ def main():
         label_visibility="collapsed"
     )
     
-    st.sidebar.markdown("<div style='height: 2px; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent); margin: 1.2rem 0 1rem 0;'></div>", unsafe_allow_html=True)
+    st.sidebar.markdown("<div style='height: 2px; background: rgba(255,255,255,0.3); margin: 1.5rem 0 1rem 0;'></div>", unsafe_allow_html=True)
     
     # Filter summary
     st.sidebar.markdown(f"""
-        <div style='background: rgba(255,255,255,0.15); padding: 1rem; border-radius: 10px; margin-top: 1rem; border: 1px solid rgba(255,255,255,0.2);'>
-            <p style='color: white; font-size: 0.85rem; margin: 0 0 0.5rem 0; font-weight: 600;'>
+        <div style='background: rgba(255,255,255,0.15); padding: 0.8rem; border-radius: 10px; margin-top: 1rem; 
+                    border: 1px solid rgba(255,255,255,0.2);'>
+            <p style='color: white; font-size: 0.85rem; margin: 0 0 0.4rem 0; font-weight: 600;'>
                 📊 ACTIVE FILTERS
             </p>
-            <p style='color: rgba(255,255,255,0.9); font-size: 0.8rem; margin: 0.3rem 0; line-height: 1.5;'>
+            <p style='color: rgba(255,255,255,0.9); font-size: 0.8rem; margin: 0.3rem 0; line-height: 1.4;'>
                 • <b>{len(selected_departments)}</b> of {len(all_departments)} Departments
             </p>
-            <p style='color: rgba(255,255,255,0.9); font-size: 0.8rem; margin: 0.3rem 0; line-height: 1.5;'>
+            <p style='color: rgba(255,255,255,0.9); font-size: 0.8rem; margin: 0.3rem 0; line-height: 1.4;'>
                 • <b>{len(selected_job_levels)}</b> of {len(all_job_levels)} Job Levels
             </p>
-            <p style='color: rgba(255,255,255,0.9); font-size: 0.8rem; margin: 0.3rem 0; line-height: 1.5;'>
+            <p style='color: rgba(255,255,255,0.9); font-size: 0.8rem; margin: 0.3rem 0; line-height: 1.4;'>
                 • Tenure: <b>{tenure_range[0]}-{tenure_range[1]}</b> years
             </p>
         </div>
     """, unsafe_allow_html=True)
     
-    st.sidebar.markdown("<div style='margin: 1.5rem 0;'></div>", unsafe_allow_html=True)
+    st.sidebar.markdown("<div style='margin: 1rem 0;'></div>", unsafe_allow_html=True)
     
     st.sidebar.markdown("""
-        <div style='background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 10px; border: 1px solid rgba(255,255,255,0.2);'>
-            <p style='color: white; font-size: 0.85rem; margin: 0; line-height: 1.6;'>
+        <div style='background: rgba(255,255,255,0.1); padding: 0.8rem; border-radius: 10px; border: 1px solid rgba(255,255,255,0.2);'>
+            <p style='color: white; font-size: 0.85rem; margin: 0; line-height: 1.5;'>
                 💡 <b>Quick Tip:</b><br/>
                 <span style='color: rgba(255,255,255,0.85); font-size: 0.8rem;'>
-                Use filters to drill down into specific workforce segments and discover actionable insights for strategic decision-making.
+                Use filters to drill down into specific workforce segments and discover actionable insights!
                 </span>
             </p>
         </div>
@@ -531,6 +572,7 @@ def main():
             <h3 style='margin: 0; color: #2563EB; font-size: 1.1rem;'>📈 Key Performance Indicators</h3>
         </div>
     """, unsafe_allow_html=True)
+    
     col1, col2, col3, col4, col5, col6 = st.columns(6)
     
     with col1:
@@ -576,7 +618,7 @@ def main():
             delta=None
         )
     
-    # Main visualizations with TABS
+    # Main visualizations with TABS (keeping tab structure)
     st.markdown("<div style='margin: 0.5rem 0;'></div>", unsafe_allow_html=True)
     
     tab1, tab2, tab3, tab4 = st.tabs(["📊 Overview", "👥 Demographics", "📉 Attrition Analysis", "💼 Performance & Engagement"])
@@ -606,8 +648,6 @@ def main():
         with col2:
             # Job level distribution
             job_level_counts = filtered_data['employees']['job_level_label'].value_counts()
-            # Remove any NaN or undefined values
-            job_level_counts = job_level_counts[job_level_counts.index.notna()]
             fig = create_donut_chart(
                 pd.DataFrame({'level': job_level_counts.index, 'count': job_level_counts.values}),
                 'count', 'level',
@@ -643,8 +683,10 @@ def main():
     
     with tab2:
         st.markdown("""
-            <div style='background: linear-gradient(135deg, #10B981 0%, #06B6D4 100%); padding: 0.8rem 1.5rem; border-radius: 10px; margin-bottom: 1rem;'>
-                <h3 style='margin: 0; color: white; font-size: 1.2rem;'>👥 Demographic Analytics</h3>
+            <div style='background: linear-gradient(135deg, #10B981 0%, #06B6D4 100%); 
+                        padding: 0.6rem 1.5rem; border-radius: 10px; margin-bottom: 0.6rem;
+                        box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);'>
+                <h3 style='margin: 0; color: white; font-size: 1.2rem; font-weight: 700;'>👥 Demographic Analytics</h3>
             </div>
         """, unsafe_allow_html=True)
         
@@ -731,8 +773,10 @@ def main():
     
     with tab3:
         st.markdown("""
-            <div style='background: linear-gradient(135deg, #EF4444 0%, #F59E0B 100%); padding: 0.8rem 1.5rem; border-radius: 10px; margin-bottom: 1rem;'>
-                <h3 style='margin: 0; color: white; font-size: 1.2rem;'>📉 Attrition Analytics</h3>
+            <div style='background: linear-gradient(135deg, #EF4444 0%, #F59E0B 100%); 
+                        padding: 0.6rem 1.5rem; border-radius: 10px; margin-bottom: 0.6rem;
+                        box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);'>
+                <h3 style='margin: 0; color: white; font-size: 1.2rem; font-weight: 700;'>📉 Attrition Analytics</h3>
             </div>
         """, unsafe_allow_html=True)
         
@@ -798,8 +842,10 @@ def main():
     
     with tab4:
         st.markdown("""
-            <div style='background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%); padding: 0.8rem 1.5rem; border-radius: 10px; margin-bottom: 1rem;'>
-                <h3 style='margin: 0; color: white; font-size: 1.2rem;'>💼 Performance & Engagement Analytics</h3>
+            <div style='background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%); 
+                        padding: 0.6rem 1.5rem; border-radius: 10px; margin-bottom: 0.6rem;
+                        box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);'>
+                <h3 style='margin: 0; color: white; font-size: 1.2rem; font-weight: 700;'>💼 Performance & Engagement Analytics</h3>
             </div>
         """, unsafe_allow_html=True)
         
@@ -902,10 +948,12 @@ def main():
                 st.plotly_chart(fig, use_container_width=True)
     
     # Footer with gradient
-    st.markdown("<div style='margin-top: 2rem;'></div>", unsafe_allow_html=True)
+    st.markdown("<div style='margin-top: 1rem;'></div>", unsafe_allow_html=True)
     st.markdown("""
-        <div style='background: linear-gradient(135deg, #2563EB 0%, #8B5CF6 100%); padding: 2rem; border-radius: 12px; text-align: center; margin-top: 2rem;'>
-            <h3 style='color: white; margin: 0 0 0.5rem 0; font-size: 1.3rem;'>Workforce Planning Dashboard</h3>
+        <div style='background: linear-gradient(135deg, #2563EB 0%, #8B5CF6 100%); 
+                    padding: 1.5rem; border-radius: 12px; text-align: center; margin-top: 1rem;
+                    box-shadow: 0 8px 24px rgba(0,0,0,0.15);'>
+            <h3 style='color: white; margin: 0 0 0.5rem 0; font-size: 1.3rem;'>✨ Workforce Planning Dashboard ✨</h3>
             <p style='color: rgba(255,255,255,0.9); margin: 0; font-size: 0.95rem;'>
                 Powered by Python, Streamlit & Plotly | Real-time HR Analytics
             </p>
@@ -918,3 +966,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+'''
+
+# Write the clean dashboard
+with open('streamlit_app.py', 'w', encoding='utf-8') as f:
+    f.write(dashboard_code)
+
+print("✅ Dashboard successfully rebuilt with all improvements!")
+print("✅ Kept tab navigation structure")
+print("✅ Applied compact spacing")
+print("✅ Added graphics and emojis")
+print("✅ Made charts interactive with hover effects")
+print("✅ Bolder axis titles already applied in chart_components.py")
+print("\n🎉 Your dashboard is ready! Streamlit should auto-reload.")
