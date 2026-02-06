@@ -1,11 +1,24 @@
 # 📊 Workforce Planning Analysis Dashboard
 
-> **A comprehensive, interactive HR analytics dashboard for workforce planning, attrition analysis, and strategic insights.**
+> **A comprehensive, interactive HR analytics dashboard for workforce planning, attrition analysis, and strategic insights with AI-powered recommendations.**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red)](https://streamlit.io/)
 [![Plotly](https://img.shields.io/badge/Plotly-5.x-green)](https://plotly.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![Dashboard](https://img.shields.io/badge/Status-Production%20Ready-success)](http://localhost:8502)
+
+---
+
+## ✨ Latest Updates (Feb 2026)
+
+### 🎉 **NEW: Enhanced Dashboard Features**
+- ✅ **20 Enhanced Charts** - All visualizations now include detailed axis descriptions and data-driven insights
+- ✅ **Insights & Recommendations Tab** - AI-powered analytics with executive summaries, key insights, and actionable recommendations
+- ✅ **ROI Calculator** - Financial impact analysis showing potential cost savings
+- ✅ **Industry Benchmarking** - Attrition KPI now compares against 15% industry standard with clear delta explanations
+- ✅ **Dynamic Insights Engine** - Conditional recommendations based on your actual data
+- ✅ **Professional Design** - Light gradient background with compact spacing and bold typography
 
 ---
 
@@ -18,7 +31,7 @@ streamlit run streamlit_app.py
 ```
 Or simply double-click: `dashboards/run_dashboards.bat`
 
-**Access at:** `http://localhost:8501`
+**Access at:** `http://localhost:8502`
 
 ---
 
@@ -34,6 +47,17 @@ WorkForce-Planning-Analysis/
 │   ├── kpi_card.py             # KPI card components
 │   ├── requirements.txt        # Dashboard dependencies
 │   └── README.md               # Dashboard documentation
+├── 📁 documentation/           # Project documentation
+│   ├── ATTRITION_KPI_EXPLANATION.md    # Attrition metric guide
+│   ├── CHART_ENHANCEMENTS_COMPLETE.md  # Chart enhancement details
+│   ├── DASHBOARD_ENHANCEMENTS.md       # Dashboard features guide
+│   ├── CLEANUP_ANALYSIS.md             # Cleanup documentation
+│   ├── FILE_ORGANIZATION.md            # Organization summary
+│   ├── FINAL_PROJECT_STRUCTURE.md      # Comprehensive structure
+│   ├── GIT_COMMIT_CHECKLIST.md         # Git workflow guide
+│   ├── STRUCTURE.md                    # Structure overview
+│   ├── OLD_README.md                   # Previous README version
+│   └── PROJECT_STRUCTURE.md            # Legacy structure doc
 │
 ├── 📁 Raw dataset/             # Original HR data files
 │   ├── employees_master.csv    # Employee information
@@ -46,18 +70,11 @@ WorkForce-Planning-Analysis/
 │   ├── attrition_events.csv    # Exit data
 │   └── job_history.csv         # Job transitions
 │
-├── � notebooks/               # Jupyter notebooks (EDA)
-├── 📁 scripts/                 # Utility scripts
-├── 📁 reports/                 # Generated reports
-├── � docs/                    # Documentation
-│   ├── Domain.md               # Business domain
-│   ├── Description.md          # Project details
-│   ├── EndGoal.md              # Objectives
-│   └── IDEA.md                 # Project ideation
-│
 ├── 📄 README.md                # This file
-├── 📄 STRUCTURE.md             # Detailed structure guide
-├── 📄 requirements.txt         # Python dependencies
+├── � Domain.md                # Business domain
+├── 📄 Description.md           # Project details
+├── 📄 EndGoal.md               # Objectives
+├── 📄 IDEA.md                  # Project ideation
 └── 📄 .gitignore               # Git ignore rules
 ```
 
@@ -85,16 +102,54 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-**🌐 Then open your browser to:** `http://localhost:8501`
+**🌐 Then open your browser to:** `http://localhost:8502`
+
+### **Dashboard Tabs:**
+
+#### 📊 **Overview**
+- Total Employees, Average Tenure, Attrition Rate, Retention Rate KPIs
+- Top 10 Departments by Headcount
+- Job Level Distribution (Entry to Executive)
+- Tenure Distribution (0-1yr to 10+ years)
+- Attrition Rate Gauge with industry benchmarking
+
+#### 👥 **Demographics**
+- Gender Distribution
+- Age Group Analysis
+- Marital Status Breakdown
+- Education Level Distribution
+- Employment Type (Full-time/Part-time/Contract)
+- Work Location (Office/Remote/Hybrid)
+
+#### 📉 **Attrition Analysis**
+- Attrition by Department
+- Top Attrition Reasons (with targeted recommendations)
+- Exit Interview Satisfaction Scores
+- Rehire Eligibility Analysis
+
+#### 💼 **Performance & Engagement**
+- Performance Rating Distribution
+- Manager Rating Analysis
+- Job Satisfaction Levels
+- Overall Engagement Scores
+- Goal Completion Tracking
+- Promotion Recommendations
+
+#### 📈 **Insights & Recommendations** ✨ NEW!
+- **Executive Summary** - Workforce Health, Attrition Alerts, Satisfaction Metrics
+- **6 Key Insights** - Data-driven analysis with percentages and trends
+- **Priority-based Recommendations** - Critical, High, Medium, and Ongoing actions
+- **ROI Calculator** - Financial impact analysis showing potential cost savings
 
 **Features:**
-- 📊 20 interactive visualizations across 4 tabs
-- 🎯 6 real-time KPI cards
-- 🔍 Dynamic filters (Department, Job Level, Tenure)
-- 🎨 Professional UI with meaningful labels (no confusing numbers!)
-- 📈 Overview, Demographics, Attrition, Performance analytics
+- 🎯 **20 Enhanced Visualizations** - All charts include detailed axis descriptions and insights
+- � **Dynamic Filters** - Filter by Department, Job Level, Tenure Range
+- 📊 **Industry Benchmarking** - Compare against 15% industry attrition standard
+- 💡 **Data-Driven Insights** - Conditional recommendations based on your actual data
+- 🎨 **Professional Design** - Light gradient background with glassmorphism effects
+- 📱 **Responsive Layout** - Works on desktop and tablet devices
 
-**📚 For detailed dashboard documentation, see:** [`dashboards/README.md`](dashboards/README.md)
+**📚 For detailed dashboard documentation, see:** [`documentation/DASHBOARD_ENHANCEMENTS.md`](documentation/DASHBOARD_ENHANCEMENTS.md)
 
 ---
 

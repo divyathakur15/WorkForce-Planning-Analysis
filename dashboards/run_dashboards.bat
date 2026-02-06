@@ -39,7 +39,7 @@ streamlit run streamlit_app.py
 pause
 goto end
 
-:install
+:install2
 echo.
 echo Installing dependencies...
 pip install -r requirements.txt
