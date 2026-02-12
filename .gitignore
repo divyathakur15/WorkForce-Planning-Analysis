@@ -87,3 +87,8 @@ Thumbs.db
 *.sql
 *.sqlite
 *.db
+
+# Personal reference files (keep locally only)
+LINKEDIN_POST_TEMPLATE.md
+QUICK_REFERENCE.md
+FINAL_CLEANUP.md
