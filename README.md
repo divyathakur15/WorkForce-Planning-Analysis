@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red)](https://streamlit.io/)
 [![Plotly](https://img.shields.io/badge/Plotly-5.x-green)](https://plotly.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
-[![Dashboard](https://img.shields.io/badge/Status-Production%20Ready-success)](http://localhost:8502)
+[![Live Dashboard](https://img.shields.io/badge/🚀_Live_Dashboard-Streamlit-FF4B4B?style=for-the-badge)](https://divyathakur15-workforce-planning-dashboardsstreamlit-app-5kmdf1.streamlit.app)
 
 ---
 
@@ -24,7 +24,14 @@
 
 ## 🚀 Quick Start
 
-### **Launch the Dashboard**
+### **🌐 Live Demo**
+**👉 [View Live Dashboard](https://divyathakur15-workforce-planning-dashboardsstreamlit-app-5kmdf1.streamlit.app)** 🎯
+
+> No installation required! Click the link above to access the fully interactive dashboard instantly.
+
+---
+
+### **💻 Run Locally**
 ```bash
 cd dashboards
 streamlit run streamlit_app.py
